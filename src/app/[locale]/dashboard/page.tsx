@@ -783,7 +783,16 @@ export default function UserDashboardPage() {
                 </div>
 
             </div>
+
+            <div className="mt-10 py-5 text-center opacity-30 hover:opacity-100 transition-opacity">
+                <p className="text-[10px] text-red-500 font-mono">
+                    DEBUG: URL={process.env.NEXT_PUBLIC_SUPABASE_URL ? process.env.NEXT_PUBLIC_SUPABASE_URL.substring(0, 12) + '...' : 'UNDEFINED'} <br />
+                    KEY={process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY.substring(0, 6) + '...' : 'UNDEFINED'}
+                </p>
+            </div>
+
         </div>
+        </div >
     );
 }
 
