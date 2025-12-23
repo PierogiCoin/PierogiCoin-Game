@@ -173,7 +173,12 @@ export default function UserDashboardPage() {
                 }
             }
         } catch (err: any) {
-            setAuthMessage({ type: 'error', text: err.message || 'Authentication failed' });
+            console.error('Auth error detailed:', err);
+            let msg = err.message || 'Authentication failed';
+            if (msg.includes('Invalid login credentials')) {
+                msg = t('dashboard.error_invalid_credentials', 'Invalid email or password. Please try again.');
+            }
+            setAuthMessage({ type: 'error', text: msg });
         } finally {
             setAuthLoading(false);
         }
