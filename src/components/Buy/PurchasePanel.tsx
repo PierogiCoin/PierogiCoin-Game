@@ -42,7 +42,7 @@ type StageLike = {
   remainingSlots?: number;
 };
 
-type Crypto = 'SOL' | 'USDC' | 'CARD';
+type Crypto = 'SOL' | 'USDC';
 
 const clamp = (n: number, min: number, max: number) => Math.max(min, Math.min(max, n));
 
@@ -212,7 +212,7 @@ export default function PurchasePanel() {
     const s = localStorage.getItem('buy:amount');
     const c = localStorage.getItem('buy:crypto') as Crypto | null;
     if (s) setAmountUSD(Number(s));
-    if (c === 'SOL' || c === 'USDC' || c === 'CARD') setSelectedCrypto(c);
+    if (c === 'SOL' || c === 'USDC') setSelectedCrypto(c);
   }, []);
   useEffect(() => { localStorage.setItem('buy:amount', String(amountUSD)); }, [amountUSD]);
   useEffect(() => { localStorage.setItem('buy:crypto', selectedCrypto); }, [selectedCrypto]);
@@ -237,7 +237,7 @@ export default function PurchasePanel() {
     const MIN = 1, MAX = 5000;
     const amountClamped = clamp(Math.floor(amountUSD), MIN, MAX);
 
-    const isCard = selectedCrypto === 'CARD';
+    const isCard = false;
     let targetWallet = publicKey?.toBase58();
 
     if (isCard && !targetWallet) {
@@ -500,56 +500,19 @@ export default function PurchasePanel() {
 
         {/* Input Area */}
         <div className="space-y-6">
-          {selectedCrypto !== 'CARD' ? (
-            <AmountInput
-              amountUSD={amountUSD}
-              setAmountUSD={setAmountUSD}
-              selectedCrypto={selectedCrypto}
-              liveCryptoPrices={liveCryptoPrices}
-              disabled={isProcessing}
-            />
-          ) : (
-            <div className="space-y-4 animate-fade-in">
-              <label className="text-xs font-bold text-white/50 uppercase tracking-wider block">
-                Select Top-Up Bundle
-              </label>
-              <div className="grid grid-cols-2 gap-3">
-                {[50, 100, 250, 500, 1000, 2500].map((val) => (
-                  <button
-                    key={val}
-                    onClick={() => setAmountUSD(val)}
-                    className={`relative flex flex-col items-center justify-center py-4 rounded-xl border transition-all ${amountUSD === val
-                      ? 'border-gold-500 bg-gold-500/10 text-white shadow-[0_0_15px_rgba(250,204,21,0.2)] scale-[1.02]'
-                      : 'border-white/10 bg-white/5 text-gray-400 hover:border-white/20 hover:bg-white/10'
-                      }`}
-                  >
-                    <span className="font-black text-2xl text-white">${val}</span>
-                    <span className="text-[10px] uppercase font-bold text-gold-500">
-                      Top-Up Pack
-                    </span>
-                    {amountUSD === val && (
-                      <div className="absolute top-2 right-2 w-2 h-2 bg-green-400 rounded-full shadow-[0_0_5px_#4ade80]" />
-                    )}
-                  </button>
-                ))}
-              </div>
-              <div className="p-3 rounded-lg bg-blue-500/10 border border-blue-500/20 flex gap-3 items-start">
-                <span className="text-xl">💳</span>
-                <div>
-                  <p className="text-sm font-bold text-blue-100">Safe Card Payment</p>
-                  <p className="text-xs text-blue-200/70">
-                    Purchase a Game Bundle to top up your account. Funds are automatically converted to PRG Tokens & Bonuses.
-                  </p>
-                </div>
-              </div>
-            </div>
-          )}
+          <AmountInput
+            amountUSD={amountUSD}
+            setAmountUSD={setAmountUSD}
+            selectedCrypto={selectedCrypto}
+            liveCryptoPrices={liveCryptoPrices}
+            disabled={isProcessing}
+          />
 
           {/* Custom Crypto + Card Selector */}
           <div>
             <label className="text-xs font-bold text-white/50 uppercase tracking-wider mb-2 block">{t('buy_section.crypto_selector_label', { defaultValue: 'Pay with' })}</label>
             <div className="grid grid-cols-3 gap-3">
-              {(['SOL', 'USDC', 'CARD'] as const).map(c => (
+              {(['SOL', 'USDC'] as const).map(c => (
                 <button
                   key={c}
                   onClick={() => setSelectedCrypto(c)}
@@ -560,8 +523,7 @@ export default function PurchasePanel() {
                 >
                   {c === 'SOL' && <Image src="https://cryptologos.cc/logos/solana-sol-logo.png" width={24} height={24} className="w-6 h-6 group-hover:scale-110 transition-transform" alt="SOL" unoptimized />}
                   {c === 'USDC' && <Image src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png" width={24} height={24} className="w-6 h-6 group-hover:scale-110 transition-transform" alt="USDC" unoptimized />}
-                  {c === 'CARD' && <FaCreditCard className="w-6 h-6 group-hover:scale-110 transition-transform" />}
-                  <span className="text-[10px] font-bold">{c === 'CARD' ? 'CARD' : c}</span>
+                  <span className="text-[10px] font-bold">{c}</span>
                   {selectedCrypto === c && (
                     <div className="absolute top-1.5 right-1.5 w-1.5 h-1.5 bg-green-400 rounded-full shadow-[0_0_5px_#4ade80]" />
                   )}
@@ -578,23 +540,7 @@ export default function PurchasePanel() {
               <span className="font-mono text-white/80">
                 {selectedCrypto === 'SOL' && solBalance != null && `${numFmt4.format(solBalance)} SOL`}
                 {selectedCrypto === 'USDC' && usdcBalance != null && `${numFmt2.format(usdcBalance)} USDC`}
-                {selectedCrypto === 'CARD' && 'Stripe / Card'}
               </span>
-            </div>
-          )}
-
-          {!publicKey && selectedCrypto === 'CARD' && (
-            <div className="mt-4 p-3 rounded-lg border border-white/10 bg-white/5 animation-fade-in">
-              <label className="block text-xs text-white/60 mb-1">
-                {t('buy_section.manual_wallet_label', { defaultValue: 'Enter your Solana wallet address for token delivery:' })}
-              </label>
-              <input
-                type="text"
-                value={manualAddress}
-                onChange={(e) => setManualAddress(e.target.value)}
-                placeholder="Paste Solana address (e.g. 7Xw...)"
-                className="w-full bg-black/40 border border-white/10 rounded px-3 py-2 text-sm text-white focus:border-gold-400 focus:outline-none placeholder:text-gray-600 font-mono"
-              />
             </div>
           )}
         </div>
@@ -614,7 +560,7 @@ export default function PurchasePanel() {
           </div>
         )}
 
-        {destinationInfo && selectedCrypto !== 'CARD' && (
+        {destinationInfo && (
           <div className="rounded-xl border border-dashed border-amber-500/30 bg-amber-500/5 p-4 space-y-3 animation-fade-in">
             <div className="text-center">
               <h5 className="text-amber-400 font-bold mb-1">{t('buy_section.manual_payment_title', { defaultValue: 'Complete Payment' })}</h5>
@@ -632,8 +578,8 @@ export default function PurchasePanel() {
 
         <div className="space-y-4 pt-4">
           <button
-            onClick={publicKey || (selectedCrypto === 'CARD' && manualAddress) ? handleBuy : () => document.querySelector<HTMLButtonElement>('.wallet-adapter-button')?.click()}
-            disabled={(publicKey || (selectedCrypto === 'CARD' && manualAddress)) ? (isProcessing || !isDataReady) : false}
+            onClick={publicKey ? handleBuy : () => document.querySelector<HTMLButtonElement>('.wallet-adapter-button')?.click()}
+            disabled={publicKey ? (isProcessing || !isDataReady) : false}
             className={`w-full py-4 rounded-xl font-black text-lg uppercase tracking-wide transition-all shadow-lg hover:shadow-gold-500/20
               ${publicKey
                 ? 'bg-gradient-to-r from-gold-500 to-amber-500 text-black hover:scale-[1.02] hover:brightness-110'
@@ -642,10 +588,10 @@ export default function PurchasePanel() {
             {isProcessing ? (
               <span className="flex items-center justify-center gap-2">
                 <FaSpinner className="animate-spin" />
-                {selectedCrypto === 'CARD' ? 'Redirecting...' : t('buy_section.processing', { defaultValue: 'Processing...' })}
+                {t('buy_section.processing', { defaultValue: 'Processing...' })}
               </span>
-            ) : (!publicKey && !(selectedCrypto === 'CARD' && manualAddress)) ? (
-              selectedCrypto === 'CARD' ? t('buy_section.buy_with_card', { defaultValue: 'Buy with Card' }) : "Select Wallet"
+            ) : (!publicKey) ? (
+              "Select Wallet"
             ) : (
               <span className="flex items-center justify-center gap-2">
                 {showSuccessLabel && '🎉'}

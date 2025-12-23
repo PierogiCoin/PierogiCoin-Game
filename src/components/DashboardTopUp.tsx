@@ -45,8 +45,11 @@ export default function DashboardTopUp({ user }: { user: any }) {
                 throw new Error('No checkout URL returned');
             }
         } catch (err: any) {
-            console.error(err);
-            toast.error(err.message || 'Payment initialization failed');
+            console.error('Payment Error:', err);
+            const msg = err.message || 'Payment initialization failed';
+            toast.error(msg);
+            // Fallback alert if toast is not visible or user missed it
+            alert(`Payment Error: ${msg}`);
             setLoading(false);
         }
     };
