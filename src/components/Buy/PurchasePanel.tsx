@@ -500,13 +500,50 @@ export default function PurchasePanel() {
 
         {/* Input Area */}
         <div className="space-y-6">
-          <AmountInput
-            amountUSD={amountUSD}
-            setAmountUSD={setAmountUSD}
-            selectedCrypto={selectedCrypto === 'CARD' ? 'USDC' : selectedCrypto}
-            liveCryptoPrices={liveCryptoPrices}
-            disabled={isProcessing}
-          />
+          {selectedCrypto !== 'CARD' ? (
+            <AmountInput
+              amountUSD={amountUSD}
+              setAmountUSD={setAmountUSD}
+              selectedCrypto={selectedCrypto}
+              liveCryptoPrices={liveCryptoPrices}
+              disabled={isProcessing}
+            />
+          ) : (
+            <div className="space-y-4 animate-fade-in">
+              <label className="text-xs font-bold text-white/50 uppercase tracking-wider block">
+                Select Top-Up Bundle
+              </label>
+              <div className="grid grid-cols-2 gap-3">
+                {[50, 100, 250, 500, 1000, 2500].map((val) => (
+                  <button
+                    key={val}
+                    onClick={() => setAmountUSD(val)}
+                    className={`relative flex flex-col items-center justify-center py-4 rounded-xl border transition-all ${amountUSD === val
+                      ? 'border-gold-500 bg-gold-500/10 text-white shadow-[0_0_15px_rgba(250,204,21,0.2)] scale-[1.02]'
+                      : 'border-white/10 bg-white/5 text-gray-400 hover:border-white/20 hover:bg-white/10'
+                      }`}
+                  >
+                    <span className="font-black text-2xl text-white">${val}</span>
+                    <span className="text-[10px] uppercase font-bold text-gold-500">
+                      Top-Up Pack
+                    </span>
+                    {amountUSD === val && (
+                      <div className="absolute top-2 right-2 w-2 h-2 bg-green-400 rounded-full shadow-[0_0_5px_#4ade80]" />
+                    )}
+                  </button>
+                ))}
+              </div>
+              <div className="p-3 rounded-lg bg-blue-500/10 border border-blue-500/20 flex gap-3 items-start">
+                <span className="text-xl">💳</span>
+                <div>
+                  <p className="text-sm font-bold text-blue-100">Safe Card Payment</p>
+                  <p className="text-xs text-blue-200/70">
+                    Purchase a Game Bundle to top up your account. Funds are automatically converted to PRG Tokens & Bonuses.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Custom Crypto + Card Selector */}
           <div>
