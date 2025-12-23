@@ -15,6 +15,7 @@ import { useTranslation } from 'react-i18next';
 import { createClient } from '@/lib/supabase/client';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
+import DashboardTopUp from '@/components/DashboardTopUp';
 
 interface PlayerStats {
     username: string;
@@ -526,6 +527,9 @@ export default function UserDashboardPage() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Top Up Section */}
+                        <DashboardTopUp user={user} />
 
                         {/* Gaming Stats Cards */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
