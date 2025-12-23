@@ -79,8 +79,15 @@ export const PresaleProvider = ({ children }: { children: ReactNode }) => {
 
     try {
       // Zmieniono: Zakładamy, że getPresaleState zwraca wszystkie dane o etapach
-      const [serverData, pricesData] = await Promise.all([getPresaleState(), getLiveCryptoPrices()]);
+      const [serverData, pricesDataResult] = await Promise.all([
+        getPresaleState(),
+        getLiveCryptoPrices().catch((e) => { console.warn('Prices fetch failed', e); return null; })
+      ]);
+
       if (serverData.error) throw new Error(serverData.error);
+
+      // Fallback prices to ensure UI loads even if API fails
+      const pricesData = pricesDataResult || { SOL: 200, USDC: 1 };
 
       // Zmieniono: Wykorzystujemy wszystkie etapy z bazy danych
       const { usdRaised, allStages } = serverData;
