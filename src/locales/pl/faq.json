@@ -1,0 +1,109 @@
+{
+  "section_title": "Najczęściej zadawane pytania",
+  "section_subtitle": "Tutaj znajdziesz odpowiedzi na najważniejsze pytania.",
+  "search_placeholder": "Wyszukaj pytania lub odpowiedzi...",
+  "clear_search": "Wyczyść wyszukiwanie",
+  "filters": "Filtry",
+  "results_count": "{{count}} wyników",
+  "no_results_found": "Brak wyników dla „{{searchTerm}}”",
+  "try_filters": "Spróbuj zmienić filtr kategorii lub wyczyść wyszukiwanie.",
+  "categories": {
+    "all": "Wszystkie",
+    "general": "Pytania ogólne",
+    "buying": "Zakup i portfele",
+    "token": "Token i użyteczność",
+    "security": "Bezpieczeństwo",
+    "project": "Projekt i rozwój",
+    "community": "Społeczność",
+    "fundraising": "Zbiórka i gra"
+  },
+  "faq_items": [
+    {
+      "id": "1",
+      "questionKey": "faq.q1",
+      "answerKey": "faq.a1",
+      "categoryKey": "categories.general"
+    },
+    {
+      "id": "2",
+      "questionKey": "faq.q2",
+      "answerKey": "faq.a2",
+      "categoryKey": "categories.buying"
+    },
+    {
+      "id": "3",
+      "questionKey": "faq.q3",
+      "answerKey": "faq.a3",
+      "categoryKey": "categories.token"
+    },
+    {
+      "id": "4",
+      "questionKey": "faq.q4",
+      "answerKey": "faq.a4",
+      "categoryKey": "categories.security"
+    },
+    {
+      "id": "5",
+      "questionKey": "faq.q5",
+      "answerKey": "faq.a5",
+      "categoryKey": "categories.project"
+    },
+    {
+      "id": "6",
+      "questionKey": "faq.q6",
+      "answerKey": "faq.a6",
+      "categoryKey": "categories.community"
+    },
+    {
+      "id": "7",
+      "questionKey": "faq.q7",
+      "answerKey": "faq.a7",
+      "categoryKey": "categories.fundraising"
+    },
+    {
+      "id": "8",
+      "questionKey": "faq.q8",
+      "answerKey": "faq.a8",
+      "categoryKey": "categories.fundraising"
+    },
+    {
+      "id": "9",
+      "questionKey": "faq.q9",
+      "answerKey": "faq.a9",
+      "categoryKey": "categories.fundraising"
+    },
+    {
+      "id": "10",
+      "questionKey": "faq.q10",
+      "answerKey": "faq.a10",
+      "categoryKey": "categories.fundraising"
+    }
+  ],
+  "faq": {
+    "q1": "Czym jest PierogiCoin (PRG)?",
+    "a1": "PierogiCoin (PRG) to token tworzony przez społeczność, który łączy tradycję z innowacją. Naszym celem jest stworzenie bezpiecznego i zabawnego ekosystemu opartego o realną wartość.",
+    "q2": "Jak mogę zdobyć tokeny PierogiCoin?",
+    "a2": "Obecnie nie sprzedajemy tokenów w tradycyjny sposób. Możesz zdobyć alokację poprzez: 1) Granie w naszą grę na Telegramie, 2) Wpłatę 'cegiełki' na Skarbiec Audytu (Funding Hub).",
+    "q3": "Do czego służy token PRG?",
+    "a3": "PRG to serce ekosystemu. Służy do stakingu, zdobywania nagród w grze, a w przyszłości pozwoli na płatności w partnerskich lokalach gastronomicznych.",
+    "q4": "Czy smart kontrakt został już zaudytowany?",
+    "a4": "Właśnie na to zbieramy! Jesteśmy w fazie 'Play-to-Audit'. Nie chcemy uruchamiać głównej sprzedaży, dopóki CertiK lub Hacken nie potwierdzą 100% bezpieczeństwa naszego kodu.",
+    "q5": "Jakie są plany rozwoju?",
+    "a5": "Najpierw Audyt (Q1 2025), potem Publiczny Start, listingi na giełdach (CEX) i rozwój kolejnych gier w uniwersum PierogiCoin.",
+    "q6": "Jak mogę dołączyć do społeczności?",
+    "a6": "Wpadaj na nasz Telegram i Discord! Tam dzieje się najwięcej – codzienne dyskusje, memy i bezpośredni kontakt z zespołem.",
+    "q7": "Dlaczego zbieracie na audyt przez grę?",
+    "a7": "Bo wierzymy w transparentność. Zamiast szukać VC, wolimy, aby to społeczność sfinansowała audyt i stała się współwłaścicielem sukcesu projektu.",
+    "q8": "Jak gra na Telegramie pomaga?",
+    "a8": "Przychody z reklam w grze i dobrowolne donacje trafiają w 100% do Skarbca Audytu. Ty grasz za darmo, a my zbieramy fundusze na bezpieczeństwo.",
+    "q9": "Kiedy oficjalna przedsprzedaż?",
+    "a9": "Dopiero po pomyślnym zakończeniu audytu. Celujemy w Q1 2025. Bezpieczeństwo środków użytkowników jest dla nas priorytetem.",
+    "q10": "Czy tokeny z gry są zbywalne?",
+    "a10": "Tak, po oficjalnym starcie (TGE) tokeny zdobyte w grze zostaną odblokowane i będziesz mógł nimi handlować na giełdach."
+  },
+  "cta": {
+    "title": "Masz więcej pytań?",
+    "subtitle": "Dołącz do naszej społeczności i uzyskaj odpowiedzi.",
+    "join_discord": "Dołącz do Discorda"
+  }
+}

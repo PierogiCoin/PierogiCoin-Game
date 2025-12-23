@@ -1,0 +1,441 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== Warstwa Bazowa - Style Globalne dla HTML i Body ====== */
+@layer base {
+
+  html,
+  body {
+    scroll-behavior: smooth;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-dark-900 text-gray-200 antialiased;
+    background-image:
+      radial-gradient(ellipse at 20% 0%, rgba(251, 191, 36, 0.03) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 100%, rgba(6, 182, 212, 0.02) 0%, transparent 50%);
+  }
+}
+
+/* ====== Custom Scrollbar & Selection ====== */
+@layer base {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0a0a12;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #F59E0B 0%, #D97706 50%, #0891B2 100%);
+    border-radius: 4px;
+    border: 2px solid #0a0a12;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #FBBF24 0%, #F59E0B 50%, #22D3EE 100%);
+  }
+
+  ::selection {
+    background: rgba(251, 191, 36, 0.25);
+    color: #ffffff;
+  }
+}
+
+/* ====== Warstwa Komponentów - Style dla Niestandardowych Komponentów ====== */
+@layer components {
+
+  /* --- Style dla powiadomień react-toastify --- */
+  /* Kontener powiadomienia */
+  .Toastify__toast {
+    @apply rounded-xl border border-gray-700/50 shadow-lg;
+    background: rgba(20, 20, 22, 0.85) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  /* Ikona (sukces, błąd, etc.) */
+  .Toastify__toast-icon {
+    @apply w-8;
+    /* Zwiększamy nieco rozmiar dla lepszej widoczności */
+  }
+
+  /* Pasek postępu */
+  .Toastify__progress-bar {
+    @apply bg-gradient-to-r from-amber-500 to-yellow-400;
+    height: 3px !important;
+  }
+
+  /* Wygląd dla różnych typów powiadomień */
+  .Toastify__toast--success {
+    border-left: 4px solid #4ade80;
+    /* zielony */
+  }
+
+  .Toastify__toast--error {
+    border-left: 4px solid #f87171;
+    /* czerwony */
+  }
+
+  .Toastify__toast--warning {
+    border-left: 4px solid #facc15;
+    /* żółty */
+  }
+
+  .Toastify__toast--info {
+    border-left: 4px solid #60a5fa;
+    /* niebieski */
+  }
+
+  /* ------------------------------------------- */
+
+  .nav-container {
+    background: rgba(7, 7, 13, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    @apply rounded-2xl py-3 px-6 transition-all shadow-lg;
+    box-shadow:
+      0 4px 20px rgba(251, 191, 36, 0.08),
+      0 1px 0 rgba(251, 191, 36, 0.1) inset;
+  }
+
+  .nav-container.scrolled {
+    background: rgba(7, 7, 13, 0.92);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    box-shadow:
+      0 8px 32px rgba(251, 191, 36, 0.12),
+      0 0 0 1px rgba(251, 191, 36, 0.15) inset,
+      0 0 60px -12px rgba(6, 182, 212, 0.08);
+  }
+
+  .footer-glass {
+    background: linear-gradient(180deg, rgba(7, 7, 13, 0.85), rgba(7, 7, 13, 0.95));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(251, 191, 36, 0.1);
+    @apply w-full py-6 text-center;
+  }
+
+  /* Efekt poświaty pod kursorem w stopce */
+  .footer-interactive {
+    @apply relative overflow-hidden;
+  }
+
+  .footer-interactive::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(350px circle at var(--mouse-x) var(--mouse-y),
+        rgba(250, 204, 21, 0.06),
+        transparent 80%);
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    z-index: 0;
+  }
+
+  .footer-interactive:hover::before {
+    opacity: 1;
+  }
+
+  /* ====== Enhanced Form Input Styles ====== */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="search"],
+  input[type="url"],
+  textarea,
+  select {
+    @apply transition-all duration-200;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="url"]:focus,
+  textarea:focus,
+  select:focus {
+    @apply outline-none ring-2 ring-gold-500/30 border-gold-500;
+    box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.1), 0 0 20px rgba(251, 191, 36, 0.1);
+  }
+
+  input[type="text"]:hover:not(:focus),
+  input[type="email"]:hover:not(:focus),
+  input[type="password"]:hover:not(:focus),
+  input[type="number"]:hover:not(:focus),
+  input[type="search"]:hover:not(:focus),
+  input[type="url"]:hover:not(:focus),
+  textarea:hover:not(:focus),
+  select:hover:not(:focus) {
+    @apply border-white/20;
+  }
+
+  /* Custom checkbox/radio styling */
+  input[type="checkbox"],
+  input[type="radio"] {
+    @apply appearance-none w-5 h-5 rounded border-2 border-white/20 bg-white/5 cursor-pointer transition-all duration-200;
+  }
+
+  input[type="checkbox"]:checked,
+  input[type="radio"]:checked {
+    @apply bg-gold-500 border-gold-500;
+  }
+
+  input[type="checkbox"]:checked::after {
+    content: '✓';
+    @apply text-black text-xs font-bold flex items-center justify-center w-full h-full;
+  }
+
+  input[type="radio"] {
+    @apply rounded-full;
+  }
+
+  input[type="radio"]:checked::after {
+    content: '';
+    @apply block w-2 h-2 bg-black rounded-full mx-auto;
+  }
+
+  input[type="checkbox"]:focus,
+  input[type="radio"]:focus {
+    @apply ring-2 ring-gold-500/30 ring-offset-2 ring-offset-[#0a0a12];
+  }
+}
+
+/* ====== Warstwa Użytkowa - Niestandardowe Klasy Pomocnicze i Efekty ====== */
+@layer utilities {
+  .shadow-soft {
+    box-shadow:
+      0 8px 32px rgba(251, 191, 36, 0.06),
+      0 4px 16px rgba(6, 182, 212, 0.03),
+      0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+  }
+
+  .shadow-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .shadow-hover:hover {
+    box-shadow:
+      0 12px 40px rgba(251, 191, 36, 0.15),
+      0 0 20px rgba(6, 182, 212, 0.08);
+    transform: translateY(-3px);
+  }
+
+  .neon-bg-hero {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background:
+      radial-gradient(ellipse at 30% 20%, rgba(251, 191, 36, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 80%, rgba(6, 182, 212, 0.08) 0%, transparent 50%);
+    filter: blur(80px);
+    pointer-events: none;
+    opacity: 0.7;
+    z-index: 0;
+  }
+
+  .neon-glow-item {
+    box-shadow:
+      0 0 12px rgba(251, 191, 36, 0.5),
+      0 0 24px rgba(251, 191, 36, 0.3),
+      0 0 48px rgba(251, 191, 36, 0.15),
+      0 0 8px rgba(6, 182, 212, 0.2);
+    border-radius: inherit;
+  }
+
+  .glow-hover:hover {
+    filter: drop-shadow(0 0 12px rgba(251, 191, 36, 0.6)) drop-shadow(0 0 20px rgba(6, 182, 212, 0.3));
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .roadmap-icon-animated {
+    animation: iconPulse 2.5s infinite ease-in-out;
+  }
+
+  .typing-cursor::after {
+    content: '▍';
+    animation: typing-blink 1s infinite steps(1, end);
+    @apply inline-block ml-0.5 text-yellow-400 font-bold;
+  }
+
+  .text-gradient-gold {
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(135deg, #FBBF24 0%, #F59E0B 50%, #D97706 100%);
+  }
+
+  .text-gradient-premium {
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(135deg, #FBBF24 0%, #F59E0B 35%, #22D3EE 100%);
+  }
+
+  .background-fetch-indicator {
+    @apply w-2.5 h-2.5 bg-blue-400 rounded-full animate-ping ml-2;
+  }
+
+  .animate-pulse_slow {
+    animation: pulse_custom_slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .pulse-glow-effect {
+    animation: pulseGlow 3s infinite ease-in-out;
+  }
+
+  .shimmer-bg {
+    @apply relative overflow-hidden;
+    background-color: rgba(107, 114, 128, 0.5);
+    /* bg-gray-500/50 */
+  }
+
+  .shimmer-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 0,
+        rgba(255, 255, 255, 0.1) 20%,
+        rgba(255, 255, 255, 0.3) 60%,
+        rgba(255, 255, 255, 0));
+    animation: shimmer 2s infinite;
+  }
+}
+
+/* ====== Keyframes dla Animacji ====== */
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    box-shadow: 0px 0px 10px rgba(250, 204, 21, 0.6), 0px 0px 20px rgba(250, 204, 21, 0.4);
+    opacity: 0.7;
+  }
+
+  50% {
+    box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.8), 0px 0px 30px rgba(250, 204, 21, 0.6);
+    opacity: 1;
+  }
+}
+
+@keyframes iconPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes typing-blink {
+
+  0%,
+  100% {
+    opacity: 1
+  }
+
+  50% {
+    opacity: 0
+  }
+}
+
+@keyframes pulse_custom_slow {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+/* ====== Standard Button Styles ====== */
+.btn-primary {
+  @apply relative inline-flex items-center justify-center px-8 py-3 font-bold text-gray-900 transition-all duration-300 rounded-full;
+  background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 50%, #D97706 100%);
+  box-shadow:
+    0 4px 20px rgba(251, 191, 36, 0.4),
+    0 0 0 1px rgba(251, 191, 36, 0.2) inset;
+}
+
+.btn-primary:hover {
+  @apply scale-105;
+  box-shadow:
+    0 8px 32px rgba(251, 191, 36, 0.5),
+    0 0 40px rgba(251, 191, 36, 0.3),
+    0 0 0 1px rgba(251, 191, 36, 0.3) inset;
+}
+
+.btn-primary:active {
+  @apply scale-95;
+}
+
+.btn-secondary {
+  @apply relative inline-flex items-center justify-center px-8 py-3 font-bold text-white transition-all duration-300 rounded-full backdrop-blur-md;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.3);
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.1);
+}
+
+.btn-secondary:hover {
+  @apply scale-105;
+  background: rgba(6, 182, 212, 0.15);
+  border-color: rgba(6, 182, 212, 0.5);
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.2);
+}
+
+.btn-secondary:active {
+  @apply scale-95;
+}
+
+/* Premium Cyber Button - Alternative */
+.btn-cyber {
+  @apply relative inline-flex items-center justify-center px-8 py-3 font-bold text-white transition-all duration-300 rounded-full;
+  background: linear-gradient(135deg, #0891B2 0%, #06B6D4 50%, #22D3EE 100%);
+  box-shadow:
+    0 4px 20px rgba(6, 182, 212, 0.4),
+    0 0 0 1px rgba(6, 182, 212, 0.2) inset;
+}
+
+.btn-cyber:hover {
+  @apply scale-105;
+  box-shadow:
+    0 8px 32px rgba(6, 182, 212, 0.5),
+    0 0 40px rgba(6, 182, 212, 0.3);
+}
+
+.btn-cyber:active {
+  @apply scale-95;
+}
+
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}

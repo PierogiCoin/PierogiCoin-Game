@@ -1,0 +1,59 @@
+{
+  "title": "Privacy Policy",
+  "subtitle": "We care about your privacy and transparent data processing.",
+  "introduction": {
+    "title": "Introduction",
+    "p1": "This Privacy Policy explains what data we collect, how we use it, and what rights you have. We follow the data-minimization principle and only process information necessary to deliver our services."
+  },
+  "data_we_collect": {
+    "title": "Data we collect",
+    "p1": "The scope of data depends on how you use the site and the PRG token presale features.",
+    "list": {
+      "item1": {
+        "title": "Technical data",
+        "desc": "IP address, browser type, language settings, operating system, device identifiers, and anonymized analytics (e.g., in-app events)."
+      },
+      "item2": {
+        "title": "Web3 transactional data",
+        "desc": "Wallet address, on-chain signatures/transaction IDs (e.g., Solana), payment amount and currency, transaction status. We do not store private keys."
+      },
+      "item3": {
+        "title": "Voluntary contact data",
+        "desc": "Email address or social handle if you contact us or subscribe to a newsletter."
+      }
+    }
+  },
+  "how_we_use_data": {
+    "title": "How we use data",
+    "p1": "We process data only for legitimate purposes and in accordance with applicable laws (e.g., GDPR).",
+    "list": {
+      "item1": "To operate the service and presale (e.g., handle payments, deliver PRG tokens, verify transactions).",
+      "item2": "To maintain security (abuse prevention, technical logs, error detection).",
+      "item3": "For analytics and product improvement (usage metrics, A/B testing, communication about important changes)."
+    }
+  },
+  "cookies": {
+    "title": "Cookies and similar technologies",
+    "p1": "We use essential cookies for site functionality and analytics tools in anonymized mode. You can manage cookie preferences in your browser settings."
+  },
+  "data_security": {
+    "title": "Data security",
+    "p1": "We apply security practices such as encrypted connections (HTTPS), access controls, and abuse monitoring. Still, no system can guarantee 100% security."
+  },
+  "third_parties": {
+    "title": "Sharing with third parties",
+    "p1": "We may rely on trusted providers (e.g., analytics, hosting, payment tools). We share only what is necessary to deliver the services and require our providers to comply with data-protection laws."
+  },
+  "your_rights": {
+    "title": "Your rights",
+    "p1": "You have the right to access, rectify, erase, restrict processing, object, and data portability, as well as to lodge a complaint with a supervisory authority. We will honor requests within the limits of applicable law and our obligations (e.g., accounting or AML/CFT)."
+  },
+  "childrens_privacy": {
+    "title": "Children’s privacy",
+    "p1": "Our services are not directed to individuals under the age of 13 (or higher, as required by local laws). We do not knowingly collect children’s data."
+  },
+  "contact": {
+    "title": "Contact",
+    "p1": "For privacy matters, contact us at {{email}}. We will do our best to respond promptly."
+  }
+}

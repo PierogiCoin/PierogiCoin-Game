@@ -1,0 +1,59 @@
+{
+  "title": "Polityka prywatności",
+  "subtitle": "Dbamy o Twoją prywatność i przejrzystość przetwarzania danych.",
+  "introduction": {
+    "title": "Wprowadzenie",
+    "p1": "Niniejsza Polityka prywatności opisuje, jakie dane zbieramy, w jaki sposób je wykorzystujemy oraz jakie prawa Ci przysługują. Stosujemy zasadę minimalizacji danych i przetwarzamy wyłącznie informacje niezbędne do świadczenia naszych usług."
+  },
+  "data_we_collect": {
+    "title": "Jakie dane zbieramy",
+    "p1": "Zakres danych zależy od sposobu korzystania ze strony i funkcji przedsprzedaży tokenów PRG.",
+    "list": {
+      "item1": {
+        "title": "Dane techniczne",
+        "desc": "Adres IP, typ przeglądarki, ustawienia języka, system operacyjny, identyfikatory urządzeń oraz anonimowe dane analityczne (np. zdarzenia w aplikacji)."
+      },
+      "item2": {
+        "title": "Dane transakcyjne Web3",
+        "desc": "Adres portfela, podpisy i identyfikatory transakcji on-chain (np. Solana), kwota i waluta płatności, status transakcji. Nie przechowujemy kluczy prywatnych."
+      },
+      "item3": {
+        "title": "Dobrowolne dane kontaktowe",
+        "desc": "Adres e-mail lub nick w mediach społecznościowych, jeśli skontaktujesz się z nami lub zapiszesz do newslettera."
+      }
+    }
+  },
+  "how_we_use_data": {
+    "title": "W jaki sposób wykorzystujemy dane",
+    "p1": "Przetwarzamy dane wyłącznie w uzasadnionych celach i zgodnie z obowiązującymi przepisami (np. RODO).",
+    "list": {
+      "item1": "Realizacja funkcji serwisu i przedsprzedaży (np. obsługa płatności, dostarczenie tokenów PRG, weryfikacja transakcji).",
+      "item2": "Utrzymanie bezpieczeństwa (zapobieganie nadużyciom, logi techniczne, wykrywanie błędów).",
+      "item3": "Analityka i ulepszenia produktu (pomiary użycia, testy A/B, komunikacja o istotnych zmianach)."
+    }
+  },
+  "cookies": {
+    "title": "Pliki cookie i podobne technologie",
+    "p1": "Używamy niezbędnych plików cookie do działania strony oraz narzędzi analitycznych w trybie zanonimizowanym. Możesz zarządzać preferencjami cookie w ustawieniach przeglądarki."
+  },
+  "data_security": {
+    "title": "Bezpieczeństwo danych",
+    "p1": "Stosujemy praktyki bezpieczeństwa takie jak szyfrowanie połączeń (HTTPS), ograniczenia dostępu oraz monitorowanie nadużyć. Mimo to żaden system nie gwarantuje 100% bezpieczeństwa."
+  },
+  "third_parties": {
+    "title": "Udostępnianie danych podmiotom trzecim",
+    "p1": "Możemy korzystać z zaufanych dostawców (np. analityka, hosting, narzędzia płatnicze). Udostępniamy tylko dane niezbędne do świadczenia usług i wymagamy od dostawców zgodności z przepisami ochrony danych."
+  },
+  "your_rights": {
+    "title": "Twoje prawa",
+    "p1": "Masz prawo do dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz przenoszenia danych, a także do złożenia skargi do właściwego organu nadzorczego. Wniosek zrealizujemy w granicach prawa i naszych obowiązków (np. księgowych lub wynikających z przepisów AML/CFT)."
+  },
+  "childrens_privacy": {
+    "title": "Prywatność dzieci",
+    "p1": "Nasze usługi nie są kierowane do osób poniżej 13 roku życia (lub wyższego wieku wymaganego lokalnymi przepisami). Nie zbieramy świadomie danych dzieci."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "p1": "W sprawach prywatności skontaktuj się z nami: {{email}}. Postaramy się odpowiedzieć możliwie szybko."
+  }
+}

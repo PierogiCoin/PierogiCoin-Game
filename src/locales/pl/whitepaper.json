@@ -1,0 +1,99 @@
+{
+    "hero": {
+        "title": "Manifest Rewolucji",
+        "title_highlight": "Pieroga",
+        "subtitle": "Kulinarna Tradycja spotyka Cyfrową Przyszłość. Pierwszy na świecie ekosystem \"Play-to-Eat\".",
+        "cta_primary": "Dołącz do Rewolucji",
+        "cta_secondary": "Zobacz Tokenomię",
+        "download_pdf": "Pobierz PDF"
+    },
+    "manifesto": {
+        "title": "Dlaczego PRG?",
+        "text_1": "W świecie zdominowanym przez psy, koty i żaby, zapomnieliśmy o tym, co najważniejsze - o jedzeniu. PierogiCoin to nie tylko mem. To ruch społeczny łączący pokolenia.",
+        "text_2": "Nasz cel jest prosty: Zebrać fundusze na profesjonalny audyt Smart Contractu (CertiK) poprzez wciągającą rozgrywkę na Telegramie, a następnie wystrzelić na Księżyc (i zjeść go, jeśli jest z sera).",
+        "badge": "GENESIS 2025"
+    },
+    "tokenomics": {
+        "title": "Składniki Sukcesu",
+        "subtitle": "Perfekcyjnie zbilansowany przepis na ekonomię (7,373,000,000 PRG).",
+        "supply": "Całkowita Podaż",
+        "total_supply_value": "7,373,000,000 PRG",
+        "chart": {
+            "presale": "Przedsprzedaż (40%)",
+            "liquidity": "Płynność (15%)",
+            "team": "Zespół (10%)",
+            "marketing": "Marketing (8%)",
+            "ecosystem": "Ekosystem (12%)",
+            "rewards": "Nagrody w Grze (5%)",
+            "staking": "Staking (10%)"
+        },
+        "details_title": "Szczegóły Alokacji & Vesting",
+        "details": {
+            "team": {
+                "title": "Zespół",
+                "desc": "10% (737.3M PRG). Zablokowane na 12 miesięcy (cliff), następnie liniowy vesting przez 36 miesięcy."
+            },
+            "marketing": {
+                "title": "Marketing",
+                "desc": "8% (589.8M PRG). Uwalniane liniowo przez 24 miesiące na kampanie i partnerstwa."
+            },
+            "game_rewards": {
+                "title": "Pula Graczy",
+                "desc": "5% (368.6M PRG). Uwalniane dynamicznie w oparciu o aktywność graczy w ekosystemie Play-to-Earn."
+            },
+            "liquidity": {
+                "title": "Płynność",
+                "desc": "15% (1.105B PRG). 50% zablokowane na stałe (LP Burnt), pozostałe 50% uwalniane liniowo przez 24 miesiące."
+            }
+        },
+        "burn_mechanism": {
+            "title": "Wielki Piekarnik (Burn)",
+            "description": "Mechanizm deflacyjny: 1% każdej transakcji sprzedaży wraca do 'Piekarnika' i jest spalane, zmniejszając podaż i zwiększając wartość."
+        }
+    },
+    "roadmap": {
+        "title": "Mapa Galaktyczna",
+        "subtitle": "Nasza podróż od kuchni do gwiazd.",
+        "phase_1": {
+            "title": "Faza 1: Fundamenty (Q4 2024)",
+            "desc": "Narodziny pomysłu przy wigilijnym stole, budowa społeczności, opracowanie koncepcji PierogiCoin."
+        },
+        "phase_2": {
+            "title": "Faza 2: Geneza Społeczności (Q1 2025)",
+            "desc": "Budujemy plemię. Start mediów społecznościowych, formowanie trzonu zespołu i wstępny szkic Whitepapera."
+        },
+        "phase_3": {
+            "title": "Faza 3: Strategia i Fundamenty (Q2 2025)",
+            "desc": "Kładziemy podwaliny. Architektura Smart Contractów, przygotowania do audytu bezpieczeństwa i kampania pre-marketingowa."
+        },
+        "phase_4": {
+            "title": "Faza 4: Realizacja (Q3 2025)",
+            "desc": "Budowa serwisu WWW, optymalizacja Tokenomii, rozwój silnika gry na Telegramie oraz kampania Play-to-Audit."
+        },
+        "phase_5": {
+            "title": "Faza 5: Start (Q4 2025)",
+            "desc": "Premiera gry na Telegramie, rankingi, integracja tokena PRG i świąteczny drop NFT Genesis 2025."
+        },
+        "phase_6": {
+            "title": "Faza 6: Ekspansja (2026+)",
+            "desc": "Listingi na giełdach (CEX), partnerstwa strategiczne, rozwój ekosystemu DeFi i premiera drugiej gry."
+        }
+    },
+    "socials": {
+        "title": "Dołącz do Społeczności",
+        "subtitle": "Bądź na bieżąco z kulinarną rewolucją.",
+        "links": {
+            "telegram": "Telegram: t.me/PierogiC",
+            "twitter": "X (Twitter): x.com/PRGCoin",
+            "website": "Strona WWW: www.pierogimeme.io",
+            "discord": "Discord: discord.gg/27NqCM3b",
+            "facebook": "Facebook: facebook.com/pierogicoin",
+            "instagram": "Instagram: instagram.com/pierogicoin",
+            "tiktok": "TikTok: tiktok.com/@pierogicoin"
+        }
+    },
+    "legal": {
+        "title": "Nota Prawna",
+        "text": "Niniejszy dokument (Whitepaper) ma charakter wyłącznie informacyjny i nie stanowi porady inwestycyjnej. Kryptowaluty wiążą się z wysokim ryzykiem, w tym całkowitą utratą środków. PierogiCoin (PRG) jest tokenem użytkowym (utility token) w ekosystemie gry i nie gwarantuje zysków. Przed zakupem skonsultuj się z doradcą finansowym."
+    }
+}

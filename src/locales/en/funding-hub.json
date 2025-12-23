@@ -1,0 +1,71 @@
+{
+    "title": "Fuel the",
+    "title_highlight": "Revolution",
+    "subtitle": "Join the community effort to fund the smart contract audit and launch the presale. Choose your path to support PierogiCoin.",
+    "gamer": {
+        "title": "Founders Club + Season Pass",
+        "subtitle": "Be one of the first 1000 players to support PierogiCoin.",
+        "popular_badge": "LIMITED OFFER",
+        "card_title": "Founders Pack ($4.99)",
+        "spots_left": "Slots left: {{count}} / 1000",
+        "features": {
+            "prg_bonus": "Lifetime 1.5x Airdrop Multiplier",
+            "earnings_boost": "Unique \"Golden Pierogi\" Skin",
+            "founder_badge": "Voting Rights & Early Access (Beta)"
+        },
+        "cta": "Become a Founder"
+    },
+    "collector": {
+        "title": "Golden Pierogi NFT",
+        "subtitle": "Genesis Collection • Only 500 pcs",
+        "coming_soon": "Coming Soon",
+        "collection_name": "The Golden Pierogi #001",
+        "card_title": "Get the Relic",
+        "description": "Legendary 'Golden Pierogi' NFT. Grants passive income (+10% Staking APY) and turns your in-game character into pure gold.",
+        "cta": "Explore Magic Eden (Soon)"
+    },
+    "live_activity": {
+        "label": "Live Activity",
+        "actions": {
+            "bought_founder": "bought Founder Pack",
+            "earned_prg": "earned {{amount}} PRG",
+            "joined_game": "joined the game",
+            "reached_level": "reached Level {{level}}",
+            "donated_audit": "donated ${{amount}} to Audit",
+            "bought_pass": "bought Season Pass"
+        },
+        "time": {
+            "minutes_ago": "{{count}}m ago"
+        }
+    },
+    "audit_tracker": {
+        "title": "Audit Fund Progress",
+        "goal_reached": "GOAL REACHED!",
+        "community_funded": "We did it! Audit funded by community!",
+        "subtitle": "Community-funded security audit • Presale starts after audit",
+        "days_to_deadline": "Days to Deadline",
+        "players": "Players",
+        "prg_today": "PRG Today",
+        "milestones_title": "COMMUNITY MILESTONES",
+        "milestone_1": "+10% PRG Boost",
+        "milestone_2": "NFT Airdrop",
+        "milestone_3": "PRESALE LIVE!",
+        "unlocked": "UNLOCKED!",
+        "play_cta": "Play & Earn PRG Now",
+        "support_via": "or support via Donation / NFT",
+        "earn_free": "Earn PRG tokens for FREE by playing • No investment required"
+    },
+    "donation_widget": {
+        "title": "Supporter",
+        "subtitle": "Pure support, no strings attached",
+        "buy_coffee": "Buy Devs a Coffee",
+        "coffee_desc": "Directly support the team's caffeine intake working on the audit & game.",
+        "via_solana": "VIA SOLANA (SOL/USDC)",
+        "show_qr": "Show QR",
+        "close_qr": "Close QR Code",
+        "copied": "Address copied!",
+        "share_x": "Share on X",
+        "share_text": "I just supported the PierogiCoin Audit Fund! 🥟 Join the Founders Club and secure the future of the tastiest project on Solana. #PierogiCoin $PRG",
+        "stripe_fiat": "Stripe / Fiat"
+    }
+}

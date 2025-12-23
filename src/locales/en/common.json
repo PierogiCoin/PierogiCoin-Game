@@ -1,0 +1,165 @@
+{
+  "logoAlt": "PierogiCoin Logo",
+  "language_switcher_label": "Change Language",
+  "calculating": "Calculating...",
+  "loading_ellipsis": "...",
+  "loading_data": "Loading Data...",
+  "loading_presale_page": "Loading Presale Excitement...",
+  "not_available_short": "N/A",
+  "autofill_button": "Autofill",
+  "copy_to_clipboard": "Copy to clipboard",
+  "copied_to_clipboard": "Copied to clipboard!",
+  "copy_button_aria_label": "Copy to clipboard",
+  "scroll_to_top_label": "Scroll to top",
+  "ready_to_join_title": "Ready to Join the Feast?",
+  "close_modal": "Close modal",
+  "modal_close_button": "Got it!",
+  "sticky": {
+    "audit_live": "Audit Fund Live",
+    "support_cta": "🔥 Support & Get PRG"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Roadmap",
+    "nfts": "NFTs",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "buy_tokens": "Buy Tokens",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "whitepaper": "Whitepaper"
+  },
+  "cta": {
+    "buy_tokens": "Buy Tokens",
+    "whitepaper": "Read Whitepaper",
+    "get_started": "Get Started",
+    "learn_more": "Learn More",
+    "contact_us": "Contact Us",
+    "join_community": "Join Community",
+    "buy_tokens_now_cta": "Buy PRG Tokens Now!",
+    "claim_bonus": "AND CLAIM UP TO {{percent}}% BONUS!",
+    "join_discord": "Join Our Discord"
+  },
+  "form": {
+    "email_placeholder": "Enter your email address",
+    "subscribe_button": "Subscribe",
+    "subscribing_button": "Subscribing...",
+    "reset_button": "Reset Form",
+    "processing_button": "Processing...",
+    "retry_button": "Try Again",
+    "back_to_homepage_button": "Back to Homepage",
+    "sending_button": "Sending...",
+    "submit_button": "Send Message",
+    "validation": {
+      "email_invalid": "Please enter a valid email address.",
+      "required_field": "This field is required.",
+      "name_min_length": "Name must be at least 2 characters.",
+      "name_max_length": "Name cannot exceed 100 characters.",
+      "message_min_length": "Message must be at least 10 characters.",
+      "message_max_length": "Message cannot exceed 1000 characters.",
+      "fix_errors": "Please correct the errors in the form."
+    },
+    "feedback": {
+      "success": "Message sent successfully!",
+      "error": "An error occurred while sending the message. Please try again.",
+      "error_api": "A server issue occurred while sending the message."
+    }
+  },
+  "wallet": {
+    "connect": "Select Wallet",
+    "connect_wallet": "Connect Wallet",
+    "connect_wallet_short": "Connect",
+    "disconnect": "Disconnect Wallet",
+    "connectedAs": "Connected as",
+    "copyAddress": "Copy Wallet Address",
+    "copyAddressShort": "Copy Address",
+    "addressCopied": "✅ Address copied to clipboard!",
+    "copyFailed": "❌ Failed to copy address.",
+    "changeWallet": "Change Wallet",
+    "changeWalletShort": "Change",
+    "disconnected": "🔄 Wallet disconnected.",
+    "not_connected": "Wallet not connected. Please connect your your wallet to proceed.",
+    "wrong_network": "⚠️ Wrong network detected. Please switch to the correct network.",
+    "address_autofilled": "Wallet address has been auto-filled."
+  },
+  "errors": {
+    "generic_title": "⚠️ Oops! Something Went Wrong",
+    "generic_message": "An unexpected error occurred. Please try again later or contact support if the issue persists.",
+    "fetching_sales_data_generic": "Failed to fetch presale data. Information might be outdated.",
+    "loading_data_title": "⚠️ Oops! Data Error",
+    "loading_data_generic": "Could not load the required data at this moment. Please try refreshing the page.",
+    "data_fetch_title": "Data Fetch Error",
+    "data_fetch_default": "There was an issue fetching the latest data. Please try again.",
+    "api_returned_failure": "API returned a failure response",
+    "api_empty_response": "API returned an empty or invalid response",
+    "purchase_failed_backend": "The purchase could not be verified by the server.",
+    "unknown_payment_issue": "An unknown error occurred during payment.",
+    "unknown_server_communication": "Unknown server communication error.",
+    "unknown": "An unknown error occurred.",
+    "unknown_purchase": "An unknown error occurred during the purchase process.",
+    "wallet_or_data_missing": "Please connect your wallet and ensure data is loaded.",
+    "minimum_purchase": "Minimum purchase amount is ${{amount}} USD.",
+    "copying": "Error copying to clipboard"
+  },
+  "toast": {
+    "processing_purchase": "Processing your purchase...",
+    "purchase_error_prefix": "Purchase Error",
+    "payment_send_failed": "Payment failed",
+    "submitting_purchase": "Submitting your purchase...",
+    "copy_error": "Failed to copy. Please try manually.",
+    "payment_successful": "Payment successful!",
+    "transaction_rejected": "Transaction rejected by user.",
+    "insufficient_funds": "Insufficient funds for transaction.",
+    "newsletter_success": "Subscribed successfully!"
+  },
+  "time": {
+    "days_short": "d",
+    "hours_short": "h",
+    "minutes_short": "m",
+    "seconds_short": "s",
+    "left_suffix": "left"
+  },
+  "transaction": {
+    "id_label": "Your Order ID:",
+    "view_link": "View Transaction"
+  },
+  "footer": {
+    "logo_text": "PierogiCoin Logo",
+    "description": "PierogiCoin is a revolutionary project aiming to bring delicious decentralized finance to everyone. Join us on our journey!",
+    "quick_links_title": "Quick Links",
+    "resources_title": "Resources",
+    "stay_updated_title": "Stay Updated",
+    "newsletter_subtitle": "Subscribe to our newsletter to get the latest project updates and special offers directly in your inbox.",
+    "follow_us": "Follow Us",
+    "copyright": "All rights reserved.",
+    "disclaimer": "Cryptocurrency investment is subject to high market risk. Please invest cautiously. PierogiCoin is not responsible for your investment losses. The information provided is for educational purposes only."
+  },
+  "header": {
+    "subtitle": "Discover the crypto world with PierogiCoin!"
+  },
+  "typewriter": {
+    "word1": "Invest",
+    "word2": "Start your crypto journey with PierogiCoin!",
+    "word3": "Taste the future!",
+    "word4": "Join our community!"
+  },
+  "buy_tokens_now_cta": "Buy PRG Tokens Now!",
+  "audit_fund": {
+    "title": "Audit Fund Progress",
+    "goal_description": "Raising funds for CertiK Security Audit",
+    "funded": "Funded",
+    "players": "Active Players",
+    "earned_today": "PRG Earned Today"
+  },
+  "audit_buffs": {
+    "gathering": "Gathering Power...",
+    "tier1": "Initiate's Luck (+10% Gems)",
+    "tier2": "Audit Momentum (+25% XP)",
+    "tier3": "Security Surge (Mining Boost)",
+    "tier4": "Golden Age (+20% PRG Drops)",
+    "tier5": "LEGENDARY STATUS (2x EVERYTHING)",
+    "next_unlock": "Next Unlock"
+  }
+}

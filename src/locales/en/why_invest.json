@@ -1,0 +1,27 @@
+{
+  "title": "Why invest?",
+  "subtitle": "Discover key reasons why PierogiCoin is more than just a meme—it's a real investment in the future.",
+  "feature1": {
+    "title": "Growth Potential",
+    "description": "Early entry into a project with strong fundamentals and an engaged community maximizes potential returns."
+  },
+  "feature2": {
+    "title": "Security & Audit",
+    "description": "Our smart contract undergoes rigorous audits to ensure transparency and the safety of your funds."
+  },
+  "feature3": {
+    "title": "Strong Community",
+    "description": "A passionate, engaged community is the engine of the project and its biggest advantage."
+  },
+  "stats": {
+    "aria_label": "Project quick stats",
+    "holders": "Holders",
+    "countries": "Countries",
+    "uptime": "Uptime",
+    "txs": "Transactions"
+  },
+  "cta": {
+    "buy": "Buy Tokens",
+    "tokenomics": "See Tokenomics"
+  }
+}

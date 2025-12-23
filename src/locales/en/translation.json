@@ -1,0 +1,28 @@
+{
+    "common": {
+      "email_placeholder": "Your email address",
+      "subscribe_button": "Subscribe",
+      "subscribing_button": "Subscribing...",
+      "validation": {
+        "email_invalid": "Please enter a valid email address."
+      },
+      "toast_purchase_error_prefix": "Transaction failed"
+    },
+    "footer": {
+      "project_short_description": "The world's tastiest cryptocurrency. Join the PierogiCoin revolution!",
+      "newsletter": {
+        "title": "Join our newsletter",
+        "description": "Be the first to know about updates, partnerships and news.",
+        "subscribe_success": "✅ Subscribed successfully! Welcome.",
+        "subscribe_error": "⚠️ Oops! Something went wrong. Please try again."
+      },
+      "quick_links_title": "Quick Links",
+      "resources_title": "Resources",
+      "social": {
+        "follow_us_title": "Follow Our Journey!",
+        "stay_connected_text": "Stay connected for the latest updates, news, and community events. Join the Pierogi family!"
+      },
+      "rights_reserved": "All rights reserved.",
+      "disclaimer": "Nothing on this site constitutes financial advice. Always do your own research before investing."
+    }
+  }

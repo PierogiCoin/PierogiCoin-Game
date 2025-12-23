@@ -1,0 +1,107 @@
+{
+  "title": "Mapa drogowa",
+  "subtitle": "Od pomysłu przy wigilijnym stole do pełnej platformy.",
+  "timeline_aria_label": "Oś czasu mapy drogowej",
+  "progress_label": "Postęp",
+  "now_label": "Teraz",
+  "progress_bar_aria": "Pasek postępu mapy drogowej",
+  "legend_now": "Bieżący kwartał",
+  "see_full": "Zobacz całą mapę drogową",
+  "status_done": "Zrobione",
+  "status_now": "W trakcie",
+  "status_next": "Następne",
+  "status_later": "Później",
+  "no_exact_date": "Dokładna data niedostępna",
+  "filter_year": "Rok",
+  "filter_quarter": "Kwartał",
+  "filter_all": "Wszystko",
+  "hero": {
+    "badge": "Oś czasu projektu",
+    "title_journey": "Nasza Droga",
+    "title_forward": "Naprzód"
+  },
+  "phases": {
+    "foundation": {
+      "christmas": {
+        "title": "🎄 Narodziny Pomysłu (Q4 2024)",
+        "description": "Przy wigilijnym stole, między barszczem a pierogami, narodziła się legenda.",
+        "points": [
+          "Pierwsza wzmianka o PierogiCoin",
+          "Świąteczna inspiracja tradycją",
+          "Decyzja o stworzeniu gry dla społeczności"
+        ]
+      },
+      "community": {
+        "title": "🌱 Geneza Społeczności (Q1 2025)",
+        "description": "Budujemy plemię. Pierwsi wyznawcy dołączają do stołu.",
+        "points": [
+          "Start mediów społecznościowych",
+          "Formowanie trzonu zespołu",
+          "Wstępny szkic Whitepapera"
+        ]
+      }
+    },
+    "development": {
+      "strategy": {
+        "title": "🧠 Strategia i Fundamenty (Q2 2025)",
+        "description": "Kładziemy podwaliny. Smart kontrakty i bezpieczeństwo.",
+        "points": [
+          "Architektura Smart Contractów",
+          "Przygotowania do audytu bezpieczeństwa",
+          "Kampania Pre-Marketingowa"
+        ]
+      },
+      "execution": {
+        "title": "🛠️ Realizacja Planów (Q3 2025)",
+        "description": "Przekuwamy wizję w rzeczywistość. Budowa fundamentów ekosystemu.",
+        "points": [
+          "Tworzenie serwisu WWW",
+          "Opracowanie Tokenomii",
+          "Rozwój silnika Gry (Telegram)"
+        ]
+      }
+    },
+    "launch": {
+      "game_start": {
+        "title": "🚀 Start Gry i Fundusz Audytu (Q4 2025)",
+        "description": "Gra rusza pełną parą. Zbieramy na bezpieczeństwo.",
+        "points": [
+          "Premiera gry na Telegramie",
+          "Zbiórka na Audyt CertiK (Stage 1)",
+          "Pierwsi gracze i rankingi"
+        ]
+      },
+      "pierogi_power": {
+        "title": "🥟 Tokenizacja i Presale (Q1 2026)",
+        "description": "Rok po narodzinach pomysłu - czas na globalną ekspansję.",
+        "points": [
+          "Ukończenie Audytu Bezpieczeństwa",
+          "Start Głównej Przedsprzedaży (Stage 2)",
+          "Pełna integracja tokena PRG",
+          "Świąteczny Drop NFT"
+        ]
+      }
+    },
+    "expansion": {
+      "growth": {
+        "title": "📈 Płynność i Listingi (2026)",
+        "description": "Wychodzimy na rynek globalny. Giełdy i nowe partnerstwa.",
+        "points": [
+          "Listingi na giełdach (CEX/DEX)",
+          "Uruchomienie puli płynności",
+          "Partnerstwa ze znanymi markami",
+          "Rozbudowa ekosystemu o DeFi"
+        ]
+      },
+      "second_game": {
+        "title": "🎮 Druga Gra na Telegram (Q4 2026)",
+        "description": "To dopiero początek. Kolejny rozdział w gamingu.",
+        "points": [
+          "Premiera nowej gry w uniwersum",
+          "Cross-chain integracja",
+          "Jeszcze więcej sposobów na zarabianie (P2E)"
+        ]
+      }
+    }
+  }
+}

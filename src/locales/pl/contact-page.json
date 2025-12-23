@@ -1,0 +1,35 @@
+{
+  "title": "Skontaktuj się z Nami",
+  "subtitle": "Niezależnie od tego, czy masz pytanie, propozycję współpracy, czy potrzebujesz wsparcia – nasz zespół jest gotowy do pomocy.",
+  "contact_graphic_alt": "Ilustracja osób komunikujących się i pracujących razem nad projektem",
+
+  "form": {
+    "title": "Wyślij nam Wiadomość",
+    "name_label": "Twoje Imię",
+    "email_label": "Twój Email",
+    "message_label": "Twoja Wiadomość"
+  },
+
+  "info": {
+    "intro": {
+      "title": "Nasz Zespół Jest Gotowy",
+      "text": "W PierogiCoin wierzymy w siłę otwartej komunikacji. Każde pytanie, sugestia czy pomysł jest dla nas cenny i napędza rozwój naszego projektu. Poniżej znajdziesz różne formy kontaktu - wybierz tę, która najbardziej Ci odpowiada."
+    },
+    "collaboration": {
+      "title": "Partnerstwo i Współpraca",
+      "text": "Jesteś zainteresowany współpracą z PierogiCoin? Jesteśmy otwarci na partnerstwa, które przyniosą wartość naszej społeczności. Porozmawiajmy!"
+    },
+    "support": {
+      "title": "Wsparcie Techniczne i Problemy",
+      "text": "Napotkałeś problem z naszą stroną lub usługami? Opisz go szczegółowo, abyśmy mogli skutecznie Ci pomóc."
+    },
+    "general_contact": {
+      "title": "Kontakt Ogólny (Email)",
+      "email_address": "kontakt@pierogicoin.com"
+    },
+    "phone": {
+      "title": "Telefon (Wsparcie)",
+      "number": "+48 123 456 789"
+    }
+  }
+}

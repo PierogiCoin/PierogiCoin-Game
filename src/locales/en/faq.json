@@ -1,0 +1,109 @@
+{
+  "section_title": "Frequently Asked Questions",
+  "section_subtitle": "Here you will find answers to the most important questions.",
+  "search_placeholder": "Search for questions or answers...",
+  "clear_search": "Clear search",
+  "filters": "Filters",
+  "results_count": "{{count}} results",
+  "no_results_found": "No results found for “{{searchTerm}}”",
+  "try_filters": "Try changing the category filter or clear your search.",
+  "categories": {
+    "all": "All",
+    "general": "General Questions",
+    "buying": "Buying & Wallets",
+    "token": "Token & Utility",
+    "security": "Security",
+    "project": "Project & Development",
+    "community": "Community",
+    "fundraising": "Fundraising & Game"
+  },
+  "faq_items": [
+    {
+      "id": "1",
+      "questionKey": "faq.q1",
+      "answerKey": "faq.a1",
+      "categoryKey": "categories.general"
+    },
+    {
+      "id": "2",
+      "questionKey": "faq.q2",
+      "answerKey": "faq.a2",
+      "categoryKey": "categories.buying"
+    },
+    {
+      "id": "3",
+      "questionKey": "faq.q3",
+      "answerKey": "faq.a3",
+      "categoryKey": "categories.token"
+    },
+    {
+      "id": "4",
+      "questionKey": "faq.q4",
+      "answerKey": "faq.a4",
+      "categoryKey": "categories.security"
+    },
+    {
+      "id": "5",
+      "questionKey": "faq.q5",
+      "answerKey": "faq.a5",
+      "categoryKey": "categories.project"
+    },
+    {
+      "id": "6",
+      "questionKey": "faq.q6",
+      "answerKey": "faq.a6",
+      "categoryKey": "categories.community"
+    },
+    {
+      "id": "7",
+      "questionKey": "faq.q7",
+      "answerKey": "faq.a7",
+      "categoryKey": "categories.fundraising"
+    },
+    {
+      "id": "8",
+      "questionKey": "faq.q8",
+      "answerKey": "faq.a8",
+      "categoryKey": "categories.fundraising"
+    },
+    {
+      "id": "9",
+      "questionKey": "faq.q9",
+      "answerKey": "faq.a9",
+      "categoryKey": "categories.fundraising"
+    },
+    {
+      "id": "10",
+      "questionKey": "faq.q10",
+      "answerKey": "faq.a10",
+      "categoryKey": "categories.fundraising"
+    }
+  ],
+  "faq": {
+    "q1": "What is PierogiCoin (PRG)?",
+    "a1": "PierogiCoin (PRG) is a community-driven token merging tradition with innovation. We aim to build a secure and fun ecosystem backed by real value.",
+    "q2": "How can I get PierogiCoin tokens?",
+    "a2": "We are not selling tokens traditionally yet. You can secure an allocation by: 1) Playing our Telegram Game, 2) Contributing to the Audit Funding Hub.",
+    "q3": "What is the utility of PRG?",
+    "a3": "PRG is the heart of the ecosystem. It's used for staking, game rewards, and in the future, for payments at partner restaurants.",
+    "q4": "Has the smart contract been audited?",
+    "a4": "That's exactly what we are raising funds for! We are in the 'Play-to-Audit' phase. We won't launch the main sale until CertiK or Hacken confirms our code is 100% secure.",
+    "q5": "What is the development plan?",
+    "a5": "First Audit (Q1 2025), then Public Launch, CEX listings, and expanding the PierogiCoin gaming universe.",
+    "q6": "How can I join the community?",
+    "a6": "Join our Telegram and Discord! That's where the action is – daily discussions, memes, and direct access to the team.",
+    "q7": "Why fund the audit through a game?",
+    "a7": "Because we believe in transparency. Instead of seeking VCs, we prefer the community to fund the audit and own the project's success.",
+    "q8": "How does the Telegram game help?",
+    "a8": "Revenue from game ads and voluntary donations goes 100% to the Audit Vault. You play for free, and we gather funds for security.",
+    "q9": "When is the official Presale?",
+    "a9": "Only after a successful audit. We target Q1 2025. User fund security is our top priority.",
+    "q10": "Are game tokens tradable?",
+    "a10": "Yes, after the official Token Generation Event (TGE), tokens earned in-game will be unlocked and tradable on exchanges."
+  },
+  "cta": {
+    "title": "Do you have more questions?",
+    "subtitle": "Join our community and get answers.",
+    "join_discord": "Join Discord"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "title": "Kolekcja NFT PierogiCoin",
+    "subtitle": "Posiadaj kawałek rewolucji. Nasza ekskluzywna kolekcja NFT to więcej niż sztuka – to Twój klucz do nowego świata pysznych korzyści i przywilejów społeczności.",
+    "limited_badge": "Limitowana Kolekcja",
+    "mint_tensor": "Mintuj na Tensor ↗",
+    "explore_traits": "Odkryj Cechy",
+    "loading_gallery": "Ładowanie Galerii..."
+  },
+  "teaser_section": {
+    "premium_title": "Oto, co Nieodkryte",
+    "nft_alt_1": "Zapowiedź tajemniczego PierogiCoin NFT, typ 1",
+    "nft_alt_2": "Zapowiedź tajemniczego PierogiCoin NFT, typ 2",
+    "nft_alt_3": "Zapowiedź tajemniczego PierogiCoin NFT, typ 3",
+    "special_reveal_title": "Kliknij, by Odkryć Fragment Tajemnicy!",
+    "nft_name_1": "Mityczny Pieróg #001",
+    "nft_desc_1": "Rzadki wgląd w starożytną recepturę pierwszych Mistrzów Pierogarstwa.",
+    "nft_name_2": "Pierożek Wyroczni",
+    "nft_desc_2": "Legenda głosi, że ten pieróg potrafi przewidzieć przyszłe trendy rynkowe... albo po prostu sprawić, że będziesz bardzo głodny.",
+    "nft_name_3": "Pieróg o Galaktycznym Lukrze",
+    "nft_desc_3": "Stworzony z gwiezdnego pyłu i kosmicznego ciasta, prawdziwy rarytas."
+  },
+  "benefits": {
+    "section_title": "Korzyści i Przywileje dla Posiadaczy",
+    "b1": {
+      "title": "Dostęp do DAO i Zarządzanie",
+      "description": "Uczestnicz w zdecentralizowanym zarządzaniu, głosuj w kluczowych decyzjach projektowych i realnie kształtuj przyszłość PierogiCoin."
+    },
+    "b2": {
+      "title": "Ekskluzywne Korzyści i Zniżki",
+      "description": "Ciesz się specjalnymi zniżkami na przyszłe sprzedaże tokenów, minty NFT, gadżety i oferty partnerskie."
+    },
+    "b3": {
+      "title": "Specjalne Airdropy i Nagrody",
+      "description": "Bądź nagradzany niespodziewanymi airdropami tokenów PRG lub innymi cennymi aktywami za bycie lojalnym posiadaczem NFT."
+    },
+    "b4": {
+      "title": "Dostęp do Wydarzeń IRL i Online",
+      "description": "Zyskaj wyłączny dostęp do spotkań społeczności, sesji AMA z zespołem online oraz specjalnych wydarzeń, zarówno wirtualnych, jak i w świecie rzeczywistym."
+    }
+  },
+  "rarity": {
+    "section_title": "Odsłaniamy Poziomy Rzadkości",
+    "section_subtitle": "Każdy PierogiNFT będzie należał do jednego z poziomów rzadkości, oferując różne cechy wizualne i potencjalne zastosowania. Zbierz je wszystkie!",
+    "common": {
+      "name": "Pospolity Rarytas",
+      "description": "Podstawowe pierogi, liczne, ale niezbędne w każdej kolekcji."
+    },
+    "rare": {
+      "name": "Rzadka Receptura",
+      "description": "Trudniejsze do znalezienia, te NFT posiadają unikalne składniki i wizualne dodatki."
+    },
+    "epic": {
+      "name": "Epicka Gastronomia",
+      "description": "Prawdziwie wyjątkowe kreacje z odrębnymi atrybutami i rozszerzonymi korzyściami w ekosystemie."
+    },
+    "legendary": {
+      "name": "Legendarna Uczta",
+      "description": "Szczyt sztuki i użyteczności PierogiCoin, niezwykle rzadkie i bardzo pożądane."
+    },
+    "distribution": "{{percent}}% kolekcji"
+  },
+  "tiers": {
+    "title": "Wybierz Swój Poziom",
+    "subtitle": "Trzy drogi do wsparcia audytu i dołączenia do rewolucji.",
+    "student": {
+      "name": "Talerz Studenta",
+      "price": "0.1 SOL",
+      "desc": "Klasyczne, proste pierogi. Idealne na start.",
+      "features": [
+        "Whitelist na Przedsprzedaż (Faza 2)",
+        "Rola 'Early Eater' na Discordzie",
+        "+5% Bonusu do Airdropa"
+      ]
+    },
+    "grandma": {
+      "name": "Sekret Babci",
+      "price": "0.5 SOL",
+      "desc": "Domowe, z okrasą. Tylko 500 sztuk.",
+      "features": [
+        "Gwarantowana Alokacja (Faza 1)",
+        "+15% Bonusu do Airdropa",
+        "Prawo głosu w 'Community Kitchen'",
+        "Dostęp do Bety Gry"
+      ]
+    },
+    "golden": {
+      "name": "Złoty Pieróg",
+      "price": "2.0 SOL",
+      "desc": "Legendarny artefakt. Tylko 50 sztuk.",
+      "features": [
+        "Status VIP + Czat z Devami",
+        "Udział w przychodach z reklam (Revenue Share)",
+        "10,000 PRG natychmiast (vesting)",
+        "Paczka Merch (Bluza/Koszulka)"
+      ]
+    },
+    "cta": "Mintuj Teraz"
+  },
+  "subscription": {
+    "title": "Bądź na Bieżąco przed Startem!",
+    "text": "Bądź pierwszą osobą, która otrzyma powiadomienie o rozpoczęciu mintowania. Wprowadź poniżej swój adres e-mail.",
+    "button": "Powiadom Mnie!",
+    "success": "Dziękujemy za subskrypcję aktualizacji NFT! Będziemy Cię informować. 🥟",
+    "thanks": "Jesteś na liście! Powiadomimy Cię.",
+    "connect_prompt": "Przygotuj swój portfel Solana do mintowania:"
+  },
+  "coming_soon_desc": "Nasza unikalna kolekcja NFT piecze się właśnie w cyfrowym piekarniku. Dopracowujemy każdy piksel, aby zapewnić najsmaczniejsze kolekcjonerskie kąski na Solanie. Dołącz do listy oczekujących, aby dostać powiadomienie, gdy wyjdą świeże z pieca!",
+  "coming_soon_badge": "Już wkrótce"
+}

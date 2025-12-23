@@ -1,0 +1,37 @@
+{
+  "project_short_description": "PierogiCoin is a revolutionary project aiming to bring delicious decentralized finance to everyone. Join us on our journey!",
+  "quick_links_title": "Quick Links",
+  "resources_title": "Resources",
+  "rights_reserved": "All rights reserved.",
+  "disclaimer": "Cryptocurrency investment is subject to high market risk. Please invest cautiously. PierogiCoin is not responsible for your investment losses. The information provided is for educational purposes only.",
+
+  "social": {
+    "follow_us_title": "Follow Us",
+    "stay_connected_text": "Join our community to stay up-to-date with the latest news and announcements.",
+    "twitter_name": "Twitter / X",
+    "telegram_name": "Telegram",
+    "discord_name": "Discord",
+    "facebook_name": "Facebook",
+    "instagram_name": "Instagram",
+    "tiktok_name": "TikTok"
+  },
+
+  "newsletter": {
+    "title": "Stay Updated",
+    "description": "Subscribe to our newsletter to get the latest project updates and special offers directly in your inbox.",
+    "email_placeholder": "Enter your email address...",
+    "subscribe_button": "Subscribe",
+    "subscribing_button": "Subscribing...",
+    "subscribe_success": "✅ Subscribed successfully! Welcome to the community.",
+    "subscribe_error": "⚠️ Oops! Something went wrong. Please try again."
+  },
+
+  "resources": {
+    "whitepaper": "Whitepaper"
+  },
+
+  "legal": {
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
+  }
+}

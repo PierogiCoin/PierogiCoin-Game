@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "whitepaper": "Whitepaper",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Roadmap",
+    "faq": "FAQ",
+    "buy_tokens": "Buy Tokens",
+    "contact": "Contact",
+    "nfts": "NFTs",
+    "dashboard": "Dashboard"
+  },
+  "menu": {
+    "open": "Open navigation menu",
+    "close": "Close navigation menu"
+  }
+}

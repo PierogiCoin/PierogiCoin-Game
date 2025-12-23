@@ -1,0 +1,158 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== Warstwa Bazowa - Style Globalne dla HTML i Body ====== */
+@layer base {
+  html, body {
+    scroll-behavior: smooth;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-black text-gray-300 antialiased;
+  }
+}
+
+/* ====== Warstwa Komponentów - Style dla Niestandardowych Komponentów ====== */
+@layer components {
+  /* --- ZMIANA: Dodajemy spójny styl dla pól input/textarea --- */
+  .input-style {
+    @apply mt-1 block w-full px-4 py-2 bg-gray-700/50 border border-gray-600 rounded-lg text-gray-100 focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition-colors;
+  }
+  
+  /* Poniższe klasy są dobrze zorganizowane, ale zazwyczaj lepiej trzymać je jako klasy Tailwind w komponentach, aby uniknąć mieszania podejść. Na razie zostawiam je, bo działają. */
+  .nav-container {
+    background: rgba(10, 10, 10, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 12px 24px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 15px rgba(250, 204, 21, 0.1);
+  }
+
+  .nav-container.scrolled {
+    top: 0.5rem;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0px 6px 20px rgba(250, 204, 21, 0.2);
+  }
+
+  .footer-glass {
+    background: rgba(15, 15, 15, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* ====== Warstwa Użytkowa - Niestandardowe Klasy Pomocnicze i Efekty ====== */
+@layer utilities {
+  .shadow-soft {
+    box-shadow: 0px 8px 25px rgba(250, 204, 21, 0.05), 0px 0px 15px rgba(250, 204, 21, 0.03);
+  }
+
+  .shadow-hover {
+    transition: all 0.3s ease-in-out;
+  }
+  .shadow-hover:hover {
+    box-shadow: 0px 0px 12px rgba(250, 204, 21, 0.5);
+    transform: translateY(-2px);
+  }
+
+  .neon-bg-hero {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(250, 204, 21, 0.15) 0%, rgba(0,0,0,0) 60%);
+    filter: blur(60px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0; 
+  }
+
+  .neon-glow-item {
+    box-shadow: 0px 0px 10px rgba(250, 204, 21, 0.7),
+                0px 0px 25px rgba(250, 204, 21, 0.5),
+                0px 0px 50px rgba(250, 204, 21, 0.2);
+    border-radius: inherit;
+  }
+
+  .glow-hover:hover {
+    filter: drop-shadow(0px 0px 15px rgba(250, 204, 21, 0.7));
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .roadmap-icon-animated {
+    animation: iconPulse 2.5s infinite ease-in-out;
+  }
+
+  .typing-cursor::after {
+    content: '▍';
+    animation: typing-blink 1s infinite steps(1, end);
+    display: inline-block;
+    margin-left: 2px;
+    color: #facc15;
+    font-weight: bold;
+  }
+
+  .text-gradient-gold {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500;
+  }
+
+  .background-fetch-indicator {
+    @apply w-2.5 h-2.5 bg-blue-400 rounded-full animate-ping ml-2;
+  }
+  
+  .animate-pulse_slow {
+    animation: pulse_custom_slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+/* ====== Keyframes dla Animacji ====== */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0px 0px 10px rgba(250, 204, 21, 0.6),
+                0px 0px 20px rgba(250, 204, 21, 0.4);
+    opacity: 0.7;
+  }
+  50% {
+    box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.8),
+                0px 0px 30px rgba(250, 204, 21, 0.6);
+    opacity: 1;
+  }
+}
+.pulse-glow-effect {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
+
+@keyframes iconPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+@keyframes typing-blink {
+  0%, 100% { opacity: 1 }
+  50% { opacity: 0 }
+}
+
+@keyframes pulse_custom_slow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}

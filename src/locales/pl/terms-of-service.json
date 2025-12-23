@@ -1,0 +1,34 @@
+{
+    "title": "Warunki Świadczenia Usług",
+    "last_updated": "Ostatnia aktualizacja: 17 Czerwca 2024",
+    "agreement": {
+      "title": "1. Zgoda na Warunki",
+      "p1": "Korzystając z naszej strony internetowej i usług, zgadzasz się na przestrzeganie niniejszych Warunków Świadczenia Usług. Jeśli nie zgadzasz się z tymi warunkami, nie możesz korzystać z naszych usług."
+    },
+    "risk": {
+      "title": "2. Założenie Ryzyka",
+      "p1": "Potwierdzasz, że zakup i posiadanie kryptowalut, w tym PierogiCoin (PRG), wiąże się ze znacznym ryzykiem. Wartość kryptowalut może być niestabilna i możesz stracić całą swoją inwestycję. Jesteś wyłącznie odpowiedzialny za swoje decyzje inwestycyjne."
+    },
+    "user_obligations": {
+      "title": "3. Zobowiązania Użytkownika",
+      "p1": "Zgadzasz się na:",
+      "list": {
+        "item1": "Podawanie dokładnych informacji podczas interakcji z naszymi usługami.",
+        "item2": "Bycie wyłącznie odpowiedzialnym za bezpieczeństwo swojego portfela i kluczy prywatnych.",
+        "item3": "Przestrzeganie wszystkich obowiązujących praw i przepisów w Twojej jurysdykcji."
+      }
+    },
+    "no_warranty": {
+      "title": "4. Brak Gwarancji",
+      "p1": "Nasze usługi są świadczone na zasadzie 'tak jak jest' i 'w miarę dostępności' bez jakichkolwiek gwarancji. Nie gwarantujemy, że usługa będzie nieprzerwana, terminowa, bezpieczna lub wolna od błędów."
+    },
+    "limitation_of_liability": {
+      "title": "5. Ograniczenie Odpowiedzialności",
+      "p1": "W żadnym wypadku PierogiCoin, ani jego dyrektorzy, pracownicy, partnerzy, agenci, dostawcy lub podmioty stowarzyszone, nie ponoszą odpowiedzialności za jakiekolwiek szkody pośrednie, przypadkowe, specjalne, wynikowe lub karne, w tym między innymi za utratę zysków, danych, użytkowania, wartości firmy lub inne straty niematerialne."
+    },
+    "changes": {
+      "title": "6. Zmiany w Warunkach",
+      "p1": "Zastrzegamy sobie prawo, według własnego uznania, do modyfikowania lub zastępowania niniejszych Warunków w dowolnym momencie. Powiadomimy o wszelkich zmianach, publikując nowe Warunki na tej stronie."
+    },
+    "on_this_page": "Na tej stronie"
+  }

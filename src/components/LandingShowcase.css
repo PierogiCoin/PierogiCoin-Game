@@ -1,0 +1,75 @@
+/* LandingShowcase.css */
+
+.landing-hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    overflow: hidden;
+  }
+  
+  .landing-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/images/nft-background.jpg'); /* Dopilnuj lokalizacji */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    z-index: 0;
+    filter: blur(2px);
+  }
+  
+  .landing-content {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .landing-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #facc15; /* text-yellow-400 */
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  .landing-content p {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    color: #d1d5db; /* text-gray-300 */
+    animation: fadeInUp 1.5s ease forwards;
+  }
+  
+  .landing-button {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #facc15; /* yellow-400 */
+    color: #000;
+    font-weight: bold;
+    border-radius: 9999px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+    transition: all 0.3s ease;
+    animation: fadeInUp 2s ease forwards;
+  }
+  
+  .landing-button:hover {
+    transform: scale(1.05);
+    background-color: #fbbf24; /* yellow-500 */
+  }
+  
+  /* Animacje */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

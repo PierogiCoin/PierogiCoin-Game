@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "title": "The PierogiCoin NFT Collection",
+    "subtitle": "Own a piece of the revolution. Our exclusive NFT collection is more than just art – it's your key to a new world of delicious benefits and community perks.",
+    "limited_badge": "Limited Collection",
+    "mint_tensor": "Mint on Tensor ↗",
+    "explore_traits": "Explore Traits",
+    "loading_gallery": "Loading Gallery..."
+  },
+  "teaser_section": {
+    "premium_title": "Behold the Unrevealed",
+    "nft_alt_1": "Teaser image of a mysterious PierogiCoin NFT, type 1",
+    "nft_alt_2": "Teaser image of a mysterious PierogiCoin NFT, type 2",
+    "nft_alt_3": "Teaser image of a mysterious PierogiCoin NFT, type 3",
+    "special_reveal_title": "Click to Reveal a Piece of Mystery!",
+    "nft_name_1": "Mystic Pierogi #001",
+    "nft_desc_1": "A rare glimpse into the ancient recipe of the first Pierogi Masters.",
+    "nft_name_2": "The Oracle's Dumpling",
+    "nft_desc_2": "Legend says this pierogi can predict future market trends... or just make you very hungry.",
+    "nft_name_3": "Galaxy Glazed Pierogi",
+    "nft_desc_3": "Crafted from stardust and cosmic dough, a true delicacy."
+  },
+  "benefits": {
+    "section_title": "Holder Perks & Privileges",
+    "b1": {
+      "title": "DAO Access & Governance",
+      "description": "Participate in decentralized governance, vote on key project decisions, and truly shape the future of PierogiCoin."
+    },
+    "b2": {
+      "title": "Exclusive Perks & Discounts",
+      "description": "Enjoy special discounts on future token sales, NFT mints, merchandise, and partner offerings."
+    },
+    "b3": {
+      "title": "Special Airdrops & Rewards",
+      "description": "Get rewarded with surprise airdrops of PRG tokens or other valuable assets for being a loyal NFT holder."
+    },
+    "b4": {
+      "title": "Access to IRL & Online Events",
+      "description": "Gain exclusive access to community meetups, online AMAs with the team, and special events both virtual and in real life."
+    }
+  },
+  "rarity": {
+    "section_title": "Unveiling Rarity Tiers",
+    "section_subtitle": "Each PierogiNFT will belong to a rarity tier, offering different visual traits and potential utilities. Collect them all!",
+    "common": {
+      "name": "Common Culinary",
+      "description": "The foundational pierogies, plentiful but essential to any collection."
+    },
+    "rare": {
+      "name": "Rare Recipe",
+      "description": "Harder to find, these NFTs possess unique ingredients and visual flairs."
+    },
+    "epic": {
+      "name": "Epic Gastronomy",
+      "description": "Truly special creations with distinct attributes and enhanced in-ecosystem perks."
+    },
+    "legendary": {
+      "name": "Legendary Feast",
+      "description": "The pinnacle of PierogiCoin art and utility, extremely scarce and highly sought after."
+    },
+    "distribution": "{{percent}}% of collection"
+  },
+  "tiers": {
+    "title": "Choose Your Tier",
+    "subtitle": "Three paths to support the audit and join the revolution.",
+    "student": {
+      "name": "Student's Plate",
+      "price": "0.1 SOL",
+      "desc": "Classic, humble pierogi. Perfect entry point.",
+      "features": [
+        "Presale Whitelist (Phase 2)",
+        "'Early Eater' Discord Role",
+        "+5% Airdrop Bonus"
+      ]
+    },
+    "grandma": {
+      "name": "Grandma's Secret",
+      "price": "0.5 SOL",
+      "desc": "Homemade, with toppings. Only 500 units.",
+      "features": [
+        "Guaranteed Allocation (Phase 1)",
+        "+15% Airdrop Bonus",
+        "Voting Rights in 'Community Kitchen'",
+        "Beta Game Access"
+      ]
+    },
+    "golden": {
+      "name": "The Golden Pieróg",
+      "price": "2.0 SOL",
+      "desc": "Legendary artifact. Only 50 units.",
+      "features": [
+        "VIP Status + Dev Chat Access",
+        "Ad Revenue Share (Quarterly)",
+        "10,000 PRG Instant (Vested)",
+        "Physical Merch Pack (Hoodie/T-shirt)"
+      ]
+    },
+    "cta": "Mint Now"
+  },
+  "subscription": {
+    "title": "Stay Tuned for the Drop!",
+    "text": "Be the first to receive an alert when minting goes live. Enter your email below.",
+    "button": "Notify Me!",
+    "success": "Thanks for subscribing to NFT updates! We'll keep you posted. 🥟",
+    "thanks": "You're on the list! We'll notify you.",
+    "connect_prompt": "Get your Solana wallet ready for minting:"
+  },
+  "coming_soon_desc": "Our unique NFT collection is currently baking in the digital oven. We are perfecting every pixel to ensure the tastiest collectibles on Solana. Join the waitlist to be notified when they come out fresh!",
+  "coming_soon_badge": "Coming Soon"
+}

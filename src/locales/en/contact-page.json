@@ -1,0 +1,40 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Whether you have a question, a partnership proposal, or need support – our team is ready to help.",
+  "contact_graphic_alt": "Illustration of people communicating and working together on a project",
+
+  "form": {
+    "title": "Send us a Message",
+    "name_label": "Your Name",
+    "name_placeholder": "John Smith",
+    "email_label": "Your Email",
+    "email_placeholder": "your@email.com",
+    "message_label": "Your Message",
+    "message_placeholder": "Write your message…",
+    "consent_label": "I agree to be contacted regarding my inquiry. Data will only be used to reply.",
+    "characters_left": "characters left"
+  },
+
+  "info": {
+    "intro": {
+      "title": "Our Team Is Ready",
+      "text": "At PierogiCoin, we believe in the power of open communication. Every question, suggestion, or idea is valuable to us and drives the development of our project. Below you will find various forms of contact - choose the one that suits you best."
+    },
+    "collaboration": {
+      "title": "Partnerships & Collaboration",
+      "text": "Interested in collaborating with PierogiCoin? We are open to partnerships that will bring value to our community. Let's talk!"
+    },
+    "support": {
+      "title": "Technical Support & Issues",
+      "text": "Have you encountered a problem with our site or services? Describe it in detail so we can effectively assist you."
+    },
+    "general_contact": {
+      "title": "General Contact (Email)",
+      "email_address": "contact@pierogicoin.com"
+    },
+    "phone": {
+      "title": "Phone (Support)",
+      "number": "+48 123 456 789"
+    }
+  }
+}

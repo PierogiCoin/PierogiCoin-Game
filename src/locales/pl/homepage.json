@@ -1,0 +1,209 @@
+{
+  "hero": {
+    "badge_phase": "Faza 1: Graj i Finansuj",
+    "title_prefix": "Pierwsza Rewolucja",
+    "title_highlight": "Play-to-Audit",
+    "title_suffix": "W Historii",
+    "subtitle_prefix": "Zbieramy",
+    "subtitle_highlight": "$15,000 na Profesjonalny Audyt",
+    "subtitle_suffix": "wyłącznie poprzez grę i transparentność.",
+    "subtitle_note": "Zero presale, dopóki kod nie będzie bezpieczny.",
+    "cta_telegram": "Graj na Telegramie",
+    "cta_browser": "Graj w przeglądarce",
+    "cta_dashboard": "Mój Panel",
+    "cta_progress": "Zobacz Postęp",
+    "stat_players": "Graczy",
+    "stat_goal": "Cel Audytu",
+    "stat_launch": "Fair Launch"
+  },
+  "trust_badges": {
+    "title": "Zaufanie i Przejrzystość",
+    "subtitle": "Budujemy PRG we właściwy sposób - krok po kroku",
+    "audit_label": "Audyt Wkrótce",
+    "audit_desc": "Audyt bezpieczeństwa po osiągnięciu celu $15K",
+    "community_label": "Napędzane Społecznością",
+    "community_desc": "Transparentny model finansowania",
+    "legal_label": "Zgodność Prawna",
+    "legal_desc": "Przegląd prawny w toku",
+    "play_label": "Graj i Zarabiaj (Live)",
+    "play_desc": "Gra na Telegramie uruchomiona",
+    "live": "Aktywne",
+    "soon": "Wkrótce",
+    "security_note_prefix": "Bezpieczeństwo przede wszystkim:",
+    "security_note": "Zbieramy fundusze transparentnie poprzez grę, aby opłacić profesjonalne audyty przed przedsprzedażą."
+  },
+  "founders_club": {
+    "badge": "Oferta Limitowana",
+    "title_prefix": "Dołącz do",
+    "title_highlight": "Klubu Założycieli",
+    "description": "Bądź jednym z pierwszych 1000 graczy wspierających PierogiCoin. Odblokuj stałe bonusy i zapewnij sobie dziedzictwo przed startem w Q1 2026.",
+    "cta_button": "Zostań Założycielem ($4.99)",
+    "spots_left": "Tylko {{count}} / 1000 miejsc zostało",
+    "features": {
+      "status": {
+        "title": "Odznaka Założyciela",
+        "desc": "Ekskluzywna odznaka w grze pokazująca, że byłeś tu pierwszy."
+      },
+      "earnings": {
+        "title": "Bonus Obuwie 25%",
+        "desc": "Stały mnożnik dla przyszłych zarobków PRG."
+      },
+      "whitelist": {
+        "title": "Priorytetowa Whitelista",
+        "desc": "Gwarantowane miejsce w bezpiecznych rundach przedsprzedaży."
+      },
+      "season_pass": {
+        "title": "Season Pass w Cenie",
+        "desc": "Natychmiastowy dostęp do nagród Premium 1. miesiąca."
+      }
+    }
+  },
+  "live_stats": {
+    "label_live": "NA ŻYWO",
+    "title_prefix": "Statystyki",
+    "title_highlight": "Na Żywo",
+    "subtitle": "Dołącz do tysięcy graczy zdobywających tokeny PRG właśnie teraz",
+    "stat_active": "Aktywni Gracze",
+    "stat_earned": "Zarobione Dziś",
+    "stat_games": "Rozegrane Gry",
+    "stat_score": "Najlepszy Wynik",
+    "cta": "Zagraj na Telegramie"
+  },
+  "why_section": {
+    "title": "Dlaczego PierogiCoin?",
+    "subtitle": "Odkryj unikalne zalety, które sprawiają, że PierogiCoin to smakowita i przyszłościowa inwestycja.",
+    "features": {
+      "technology": {
+        "title": "Innowacyjna technologia",
+        "description": "Zbudowany na szybkiej i bezpiecznej, nowej generacji blockchainie, zapewniającej płynne i niezawodne transakcje."
+      },
+      "community": {
+        "title": "Rosnąca społeczność",
+        "description": "Dołącz do dynamicznej, globalnej społeczności entuzjastów, deweloperów i inwestorów pasjonujących się PierogiCoin."
+      },
+      "tokenomics": {
+        "title": "Przejrzysta tokenomia",
+        "description": "Jasno określona dystrybucja i użyteczność wspierająca długoterminowe zdrowie ekosystemu i nagradzająca uczestników."
+      },
+      "security": {
+        "title": "Bezpieczeństwo i audyty",
+        "description": "Nasze smart kontrakty są tworzone z najwyższą starannością i planowane do gruntownych audytów przez renomowane firmy."
+      },
+      "potential": {
+        "title": "Wysoki potencjał wzrostu",
+        "description": "Ulokowany na szybko rosnącym rynku Web3, z solidnymi fundamentami i jasną wizją przyszłego rozwoju."
+      },
+      "utility": {
+        "title": "Praktyczna użyteczność",
+        "description": "Zaplanowany od podstaw dla rzeczywistych zastosowań zarówno wewnątrz, jak i poza ekosystemem PierogiCoin."
+      }
+    },
+    "cta": "Zobacz tokenomię"
+  },
+  "how_to_buy_section": {
+    "title": "Skarbiec Audytu Otwarty!",
+    "journey_title_prefix": "Rozpocznij Swoją",
+    "journey_title_highlight": "Podróż",
+    "journey_desc": "Jesteśmy w <b>Fazie Pre-Audytowej</b>. Wykonaj te kroki, aby przygotować portfel i zapewnić sobie status Wczesnego Wspierającego.",
+    "subtitle": "To nie jest zwykła przedsprzedaż. Zbieramy na audyt, by zapewnić 100% bezpieczeństwa. Wesprzyj nas lub graj, by zdobyć tokeny.",
+    "steps": {
+      "1": {
+        "title": "1. Pobierz Portfel",
+        "description": "Zainstaluj Phantom lub Solflare. To będzie Twój sejf na nagrody z gry i przyszłe tokeny PRG.",
+        "cta": "Pobierz Phantom"
+      },
+      "2": {
+        "title": "2. Przygotuj SOL",
+        "description": "Będziesz potrzebować odrobiny SOL na opłaty transakcyjne lub dobrowolną wpłatę na fundusz audytu."
+      },
+      "3": {
+        "title": "3. Wesprzyj lub Graj",
+        "description": "Zamiast kupować tokeny w ciemno, wesprzyj Skarbiec Audytu 'cegiełką' lub kop PRG w naszej grze na Telegramie."
+      },
+      "4": {
+        "title": "4. Zdobądź Whitelistę",
+        "description": "Każde wsparcie i aktywność w grze gwarantuje Ci miejsce na Whieliście przed głównym startem."
+      }
+    },
+    "cta_button": "Przejdź do Skarbca (Live)"
+  },
+  "presale_card": {
+    "title": "Przedsprzedaż trwa!",
+    "subtitle": "Zabezpiecz swój wczesny przydział i korzystaj z bonusów.",
+    "btn": "Kup PRG"
+  },
+  "utility": {
+    "title": "Dlaczego warto trzymać PRG?",
+    "subtitle": "Poznaj prawdziwą użyteczność tokena w ekosystemie PierogiCoin.",
+    "cta": "Kup PRG i odblokuj korzyści",
+    "cards": {
+      "discount": {
+        "title": "Zniżki i korzyści",
+        "desc": "Korzystaj z ekskluzywnych zniżek w restauracjach oraz przyszłych benefitów w całym ekosystemie."
+      },
+      "premium": {
+        "title": "Dostęp premium",
+        "desc": "Odblokuj wczesny dostęp do funkcji, dropów i specjalnych wydarzeń tylko dla posiadaczy."
+      },
+      "staking": {
+        "title": "Staking i nagrody",
+        "desc": "Stake’uj PRG, aby zdobywać dodatkowe nagrody i wspierać zdrową gospodarkę tokenową."
+      },
+      "voting": {
+        "title": "Głosowanie społeczności",
+        "desc": "Współdecyduj o nowych funkcjach i partnerstwach, biorąc udział w zarządzaniu projektem."
+      },
+      "merch": {
+        "title": "Merch i wydarzenia",
+        "desc": "Wymieniaj tokeny na limitowane gadżety i bierz udział w wydarzeniach offline."
+      },
+      "integrations": {
+        "title": "Integracje",
+        "desc": "Używaj PRG w aplikacjach, grach i usługach partnerskich w miarę rozwoju sieci."
+      }
+    }
+  },
+  "community": {
+    "title": "Dołącz do społeczności PierogiCoin",
+    "subtitle": "Budujemy to razem. Obserwuj nas i wpadnij na czat!",
+    "twitter": "Obserwuj na X (Twitter)",
+    "telegram": "Dołącz na Telegramie",
+    "discord": "Dołącz na Discordzie"
+  },
+  "galaxy": {
+    "title_prefix": "Odkryj",
+    "title_highlight": "Galaktykę Pieroga",
+    "description": "Nasza podróż od skromnej planety pierogowej do księżycowej bazy bezpieczeństwa, aż po neonowe światła Miasta Przedsprzedaży.",
+    "planet_1": {
+      "name": "Pierogi Prime",
+      "phase": "Faza 1: Fundamenty (Live)"
+    },
+    "planet_2": {
+      "name": "Baza Księżycowa Audytu",
+      "phase": "Faza 2: Bezpieczeństwo (Wkrótce)"
+    },
+    "planet_3": {
+      "name": "Miasto Przedsprzedaży",
+      "date": "Q1 2026",
+      "tagline": "Ostateczny Cel"
+    }
+  },
+  "hommage": {
+    "title": "Hołd dla naszej kultury",
+    "subtitle": "PierogiCoin to więcej niż token – to ukłon w stronę tradycji i wspólnoty.",
+    "cta": "Poznaj historię PierogiCoin"
+  },
+  "cta": {
+    "buy": "Kup PRG",
+    "tokenomics": "Zobacz tokenomię"
+  },
+  "newsletter": {
+    "title": "Aktualizacje Zbiórki",
+    "subtitle": "Bądź na bieżąco z postępem celu $15K na audyt, ogłoszeniami przedsprzedaży i kamieniami milowymi.",
+    "placeholder": "twoj@email.com",
+    "button": "Zapisz mnie",
+    "sending": "Wysyłanie…",
+    "success": "Dziękujemy! Sprawdź skrzynkę ✉️",
+    "error": "Coś poszło nie tak — spróbuj ponownie."
+  }
+}

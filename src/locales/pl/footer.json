@@ -1,0 +1,37 @@
+{
+  "project_short_description": "PierogiCoin to rewolucyjny projekt, którego celem jest udostępnienie pysznych, zdecentralizowanych finansów każdemu. Dołącz do nas w naszej podróży!",
+  "quick_links_title": "Szybkie Linki",
+  "resources_title": "Zasoby",
+  "rights_reserved": "Wszelkie prawa zastrzeżone.",
+  "disclaimer": "Inwestycje w kryptowaluty podlegają wysokiemu ryzyku rynkowemu. Prosimy inwestować ostrożnie. PierogiCoin nie ponosi odpowiedzialności za Twoje straty inwestycyjne. Podane informacje służą wyłącznie celom edukacyjnym.",
+
+  "social": {
+    "follow_us_title": "Obserwuj Nas",
+    "stay_connected_text": "Dołącz do naszej społeczności, aby być na bieżąco z najnowszymi wiadomościami i ogłoszeniami.",
+    "twitter_name": "Twitter / X",
+    "telegram_name": "Telegram",
+    "discord_name": "Discord",
+    "facebook_name": "Facebook",
+    "instagram_name": "Instagram",
+    "tiktok_name": "TikTok"
+  },
+
+  "newsletter": {
+    "title": "Bądź na Bieżąco",
+    "description": "Zapisz się do naszego newslettera, aby otrzymywać najnowsze aktualizacje projektu i specjalne oferty prosto na swoją skrzynkę.",
+    "email_placeholder": "Wpisz swój adres e-mail...",
+    "subscribe_button": "Zapisz się",
+    "subscribing_button": "Zapisywanie...",
+    "subscribe_success": "✅ Subskrypcja udana! Witamy w społeczności.",
+    "subscribe_error": "⚠️ Ups! Coś poszło nie tak. Spróbuj ponownie."
+  },
+
+  "resources": {
+    "whitepaper": "Whitepaper"
+  },
+
+  "legal": {
+    "privacy_policy": "Polityka Prywatności",
+    "terms_of_service": "Warunki Korzystania z Usług"
+  }
+}

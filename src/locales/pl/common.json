@@ -1,0 +1,175 @@
+{
+  "logoAlt": "PierogiCoin Logo",
+  "language_switcher_label": "Zmień język",
+  "calculating": "Obliczam...",
+  "loading_ellipsis": "...",
+  "loading_data": "Ładuję dane...",
+  "loading_presale_page": "Ładuję ekscytację przedsprzedaży...",
+  "not_available_short": "N/A",
+  "autofill_button": "Uzupełnij automatycznie",
+  "copy_to_clipboard": "Kopiuj do schowka",
+  "copied_to_clipboard": "Skopiowano!",
+  "copy_button_aria_label": "Kopiuj do schowka",
+  "scroll_to_top_label": "Przewiń do góry",
+  "ready_to_join_title": "Gotowi do Przygody?",
+  "close_modal": "Zamknij okno",
+  "modal_close_button": "Rozumiem!",
+  "sticky": {
+    "audit_live": "Skarbiec Audytu Live",
+    "support_cta": "🔥 Wesprzyj i odbierz PRG"
+  },
+  "nav": {
+    "home": "Główna",
+    "about": "O nas",
+    "tokenomics": "Tokenomia",
+    "roadmap": "Mapa Drogowa",
+    "nfts": "NFT",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "buy_tokens": "Kup Tokeny",
+    "privacy_policy": "Polityka Prywatności",
+    "terms_of_service": "Warunki Usługi",
+    "whitepaper": "Whitepaper"
+  },
+  "cta": {
+    "buy_tokens": "Kup Tokeny",
+    "whitepaper": "Przeczytaj Whitepaper",
+    "get_started": "Zacznij",
+    "learn_more": "Dowiedz się więcej",
+    "contact_us": "Skontaktuj się z nami",
+    "join_community": "Dołącz do Społeczności",
+    "buy_tokens_now_cta": "Kup Tokeny Teraz!",
+    "claim_bonus": "I ODBIERZ DO {{percent}}% BONUSU!",
+    "join_discord": "Dołącz do Naszego Discorda"
+  },
+  "form": {
+    "email_placeholder": "Wprowadź swój adres e-mail",
+    "subscribe_button": "Subskrybuj",
+    "subscribing_button": "Subskrybuję...",
+    "reset_button": "Resetuj formularz",
+    "processing_button": "Przetwarzanie...",
+    "retry_button": "Spróbuj ponownie",
+    "back_to_homepage_button": "Wróć do strony głównej",
+    "sending_button": "Wysyłam...",
+    "submit_button": "Wyślij Wiadomość",
+    "validation": {
+      "email_invalid": "Proszę wprowadzić prawidłowy adres e-mail.",
+      "required_field": "To pole jest wymagane.",
+      "name_min_length": "Imię i nazwisko musi mieć co najmniej 2 znaki.",
+      "name_max_length": "Imię i nazwisko może mieć maksymalnie 100 znaków.",
+      "message_min_length": "Wiadomość musi mieć co najmniej 10 znaków.",
+      "message_max_length": "Wiadomość może mieć maksymalnie 1000 znaków.",
+      "fix_errors": "Proszę popraw błędy w formularzu."
+    },
+    "feedback": {
+      "success": "Wiadomość została pomyślnie wysłana!",
+      "error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie.",
+      "error_api": "Wystąpił problem z serwerem podczas wysyłania wiadomości."
+    }
+  },
+  "wallet": {
+    "connect": "Wybierz portfel",
+    "connect_wallet": "Połącz portfel",
+    "connect_wallet_short": "Połącz",
+    "disconnect": "Odłącz portfel",
+    "connectedAs": "Połączono jako",
+    "copyAddress": "Kopiuj adres portfela",
+    "copyAddressShort": "Kopiuj adres",
+    "addressCopied": "✅ Adres skopiowano do schowka!",
+    "copyFailed": "❌ Nie udało się skopiować adresu.",
+    "changeWallet": "Zmień portfel",
+    "changeWalletShort": "Zmień",
+    "disconnected": "🔄 Portfel odłączony.",
+    "not_connected": "Portfel niepołączony. Proszę połącz swój portfel, aby kontynuować.",
+    "wrong_network": "⚠️ Wykryto niewłaściwą sieć. Proszę przełącz się na właściwą sieć.",
+    "address_autofilled": "Adres portfela został uzupełniony automatycznie."
+  },
+  "errors": {
+    "generic_title": "⚠️ Ups! Coś poszło nie tak",
+    "generic_message": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie później lub skontaktuj się z pomocą techniczną, jeśli problem będzie się powtarzał.",
+    "fetching_sales_data_generic": "Nie udało się pobrać danych przedsprzedaży. Informacje mogą być nieaktualne.",
+    "loading_data_title": "⚠️ Ups! Błąd danych",
+    "loading_data_generic": "Nie można teraz załadować wymaganych danych. Spróbuj odświeżyć stronę.",
+    "data_fetch_title": "Błąd Pobierania Danych",
+    "data_fetch_default": "Wystąpił problem z pobieraniem najnowszych danych. Proszę spróbuj ponownie.",
+    "api_returned_failure": "API zwróciło odpowiedź o błędzie",
+    "api_empty_response": "API zwróciło pustą lub nieprawidłową odpowiedź",
+    "purchase_failed_backend": "Zakup nie mógł zostać zweryfikowany przez serwer.",
+    "unknown_payment_issue": "Wystąpił nieznany błąd podczas płatności.",
+    "unknown_server_communication": "Nieznany błąd komunikacji z serwerem.",
+    "unknown": "Wystąpił nieznany błąd.",
+    "unknown_purchase": "Wystąpił nieznany błąd podczas procesu zakupu.",
+    "wallet_or_data_missing": "Proszę połącz swój portfel i upewnij się, że dane są załadowane.",
+    "minimum_purchase": "Minimalna kwota zakupu to ${{amount}} USD.",
+    "copying": "Błąd podczas kopiowania do schowka"
+  },
+  "toast": {
+    "processing_purchase": "Przetwarzam Twój zakup...",
+    "purchase_error_prefix": "Błąd zakupu",
+    "payment_send_failed": "Płatność nie powiodła się",
+    "submitting_purchase": "Przesyłam Twój zakup...",
+    "copy_error": "Nie udało się skopiować. Proszę spróbować ręcznie.",
+    "payment_successful": "Płatność zakończona sukcesem!",
+    "transaction_rejected": "Transakcja odrzucona przez użytkownika.",
+    "insufficient_funds": "Niewystarczające środki na transakcję.",
+    "newsletter_success": "Zapisano pomyślnie!"
+  },
+  "validation": {
+    "email_invalid": "Proszę wprowadzić prawidłowy adres e-mail.",
+    "required_field": "To pole jest wymagane."
+  },
+  "time": {
+    "days_short": "d",
+    "hours_short": "h",
+    "minutes_short": "m",
+    "seconds_short": "s",
+    "left_suffix": "pozostało"
+  },
+  "transaction": {
+    "id_label": "ID Twojego zamówienia:",
+    "view_link": "Zobacz transakcję"
+  },
+  "footer": {
+    "logo_text": "PierogiCoin Logo",
+    "description": "PierogiCoin to rewolucyjny projekt, którego celem jest wprowadzenie pysznych, zdecentralizowanych finansów dla każdego. Dołącz do nas w naszej podróży!",
+    "quick_links_title": "Szybkie Linki",
+    "resources_title": "Zasoby",
+    "stay_updated_title": "Bądź na bieżąco",
+    "newsletter_subtitle": "Subskrybuj nasz newsletter, aby otrzymywać najnowsze aktualizacje projektu i specjalne oferty bezpośrednio na swoją skrzynkę odbiorczą.",
+    "follow_us": "Śledź nas",
+    "copyright": "Wszelkie prawa zastrzeżone.",
+    "disclaimer": "Inwestowanie w kryptowaluty wiąże się z wysokim ryzykiem rynkowym. Prosimy o ostrożne inwestowanie. PierogiCoin nie ponosi odpowiedzialności za straty inwestycyjne. Podane informacje mają wyłącznie charakter edukacyjny."
+  },
+  "header": {
+    "subtitle": "Odkryj świat kryptowalut z PierogiCoin!"
+  },
+  "typewriter": {
+    "word1": "Inwestuj",
+    "word2": "Zacznij swoją krypto-przygodę z PierogiCoin!",
+    "word3": "Smakuj przyszłość!",
+    "word4": "Dołącz do naszej społeczności!"
+  },
+  "buy_tokens_now_cta": "Kup Tokeny Teraz!",
+  "clicker": {
+    "nft_multiplier": "Mnożnik NFT",
+    "simulate_tier": "Symuluj",
+    "boost_active": "🚀 Aktywowano Bonus NFT!",
+    "mined_toast": "Mined!"
+  },
+  "audit_fund": {
+    "title": "Postęp Zbiórki na Audyt",
+    "goal_description": "Zbieramy fundusze na audyt bezpieczeństwa CertiK",
+    "funded": "Sfinansowano",
+    "players": "Aktywni Gracze",
+    "earned_today": "PRG Zarobione Dziś"
+  },
+  "audit_buffs": {
+    "gathering": "Zbieranie mocy...",
+    "tier1": "Szczęście Nowicjusza (+10% Klejnotów)",
+    "tier2": "Rozpęd Audytowy (+25% XP)",
+    "tier3": "Zryw Bezpieczeństwa (Boost Wydobycia)",
+    "tier4": "Złota Era (+20% Dropów PRG)",
+    "tier5": "STATUS LEGENDARNY (2x WSZYSTKO)",
+    "next_unlock": "Następny Bonus"
+  }
+}

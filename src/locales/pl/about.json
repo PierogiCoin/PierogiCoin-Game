@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "title": "Nasza historia: Od kuchni do kosmosu",
+    "subtitle": "Wierzymy, że przyszłość finansów powinna być dostępna, przejrzysta i odrobinę pyszna. Łączymy ciepło tradycji z mocą zdecentralizowanej technologii.",
+    "bg_alt": "Abstrakcyjne tło"
+  },
+  "kpi": {
+    "community": "Członków społeczności",
+    "tps_label": "Transakcji na sekundę",
+    "countries": "Kraje",
+    "audits": "Audytów"
+  },
+  "story": {
+    "heading": "Narodziny pomysłu",
+    "paragraph1": "Wszystko zaczęło się od prostego pomysłu przy kuchennym stole: a co, gdybyśmy mogli stworzyć kryptowalutę, która ucieleśnia ducha wspólnoty, ciepła i wspólnych wartości – tak jak talerz idealnie przygotowanych pierogów? Dostrzegliśmy świat krypto, który często wydawał się zimny i skomplikowany, i chcieliśmy stworzyć coś innego.",
+    "paragraph2": "PierogiCoin narodził się z pasji zarówno do najnowocześniejszych technologii, jak i do codziennych, radosnych doświadczeń. Budujemy most między DeFi a realnym życiem – z nagrodami, społecznością i ekosystemem partnerstw.",
+    "image_alt": "Tło „Nasza historia”"
+  },
+  "values": {
+    "heading": "Nasze wartości",
+    "community": {
+      "title": "Społeczność",
+      "description": "Tworzymy dla ludzi i z ludźmi. Decyzje podejmujemy wspólnie, a nagrody trafiają do aktywnych.",
+      "desc": "Tworzymy dla ludzi i z ludźmi. Decyzje podejmujemy wspólnie, a nagrody trafiają do aktywnych."
+    },
+    "transparency": {
+      "title": "Transparentność",
+      "description": "Jasne zasady, otwarty kod i przejrzyste raporty. Bez sztuczek.",
+      "desc": "Jasne zasady, otwarty kod i przejrzyste raporty. Bez sztuczek."
+    },
+    "innovation": {
+      "title": "Innowacja",
+      "description": "Łączymy Web3 z realnym światem – gry, partnerstwa i praktyczne zastosowania.",
+      "desc": "Łączymy Web3 z realnym światem – gry, partnerstwa i praktyczne zastosowania."
+    },
+    "security": {
+      "title": "Bezpieczeństwo",
+      "description": "Audyty, multisig i bezpieczna infrastruktura – bezpieczeństwo jest naszym priorytetem.",
+      "desc": "Audyty, multisig i bezpieczna infrastruktura – bezpieczeństwo jest naszym priorytetem."
+    }
+  },
+  "trust": {
+    "community_label": "Społeczność",
+    "community_value": "Wspólna siła",
+    "launch_label": "Model startu",
+    "launch_value": "Fair Launch",
+    "transparency_label": "Zasady",
+    "transparency_value": "Przejrzyste"
+  },
+  "team": {
+    "heading": "Nasz Zespół",
+    "roles": {
+      "founder": "Założycielka",
+      "community": "Community Manager",
+      "dev": "Programista",
+      "design": "Projektant"
+    }
+  },
+  "stats": {
+    "aria": "Statystyki projektu",
+    "items": [
+      {
+        "k": "stats.community",
+        "sub": "stats.community_sub",
+        "emoji": "👥"
+      },
+      {
+        "k": "stats.security",
+        "sub": "stats.security_sub",
+        "emoji": "🛡️"
+      },
+      {
+        "k": "stats.innovation",
+        "sub": "stats.innovation_sub",
+        "emoji": "⚡"
+      }
+    ],
+    "community": "Wzrost i zaufanie",
+    "community_sub": "Budujemy długoterminową wartość",
+    "security": "Bezpieczeństwo i transparentność",
+    "security_sub": "Dbamy o przejrzystość i audyty",
+    "innovation": "Innowacja",
+    "innovation_sub": "Łączymy tradycję z technologią"
+  },
+  "cta": {
+    "heading": "Dołącz do podróży PierogiCoin",
+    "description": "Sprawdź tokenomikę, zobacz mapę drogową i wejdź do naszej społeczności.",
+    "view_tokenomics": "Zobacz tokenomię",
+    "view_roadmap": "Zobacz mapę drogową",
+    "join_discord": "Dołącz do Discorda",
+    "follow_twitter": "Śledź na X",
+    "join_cta": "Dołącz do nas",
+    "availability": {
+      "heading": "Graj gdzie chcesz",
+      "description": "Doświadcz gry PierogiCoin na swojej ulubionej platformie. Niezależnie czy jesteś na telefonie z Telegramem czy na komputerze w przeglądarce, zabawa nigdy się nie kończy.",
+      "telegram": "Graj na Telegramie",
+      "browser": "Graj w przeglądarce"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Our Tokenomics",
+  "subtitle": "A transparent and sustainable token distribution, designed for long-term growth and community engagement.",
+  "total_supply_label": "Total Supply",
+  "chart_total_supply": "Total Supply",
+  "keyboard_help": "Use arrows to navigate, Enter to select",
+  "legend_aria": "Tokenomics Legend",
+  "chart_aria_label": "Tokenomics Doughnut Chart",
+  "modal": {
+    "total_allocation_label": "Full Allocation",
+    "purpose_label": "Purpose",
+    "vesting_label": "Vesting Schedule"
+  },
+  "segments": {
+    "presale": {
+      "name": "Presale",
+      "description": "Tokens available for early project supporters.",
+      "purpose": "To secure funds for early development, marketing, and community building.",
+      "vesting": "100% of tokens available immediately after the presale ends (TGE - Token Generation Event)."
+    },
+    "liquidity": {
+      "name": "Liquidity",
+      "description": "Providing liquidity on decentralized exchanges (DEXs).",
+      "purpose": "To enable smooth trading of the PRG token on exchanges like Raydium and Orca, which is crucial for price stability.",
+      "vesting": "50% permanently locked in the liquidity pool. The remaining 50% released linearly over 24 months."
+    },
+    "community_rewards": {
+      "name": "Community Rewards",
+      "description": "Rewards for staking, airdrops, and activity.",
+      "purpose": "To reward active and loyal community members for their contributions to the ecosystem's growth.",
+      "vesting": "Released gradually through staking programs and community events over 48 months."
+    },
+    "team": {
+      "name": "Team",
+      "description": "Allocation for founders and key team members.",
+      "purpose": "To motivate and reward the team for their long-term work on the project.",
+      "vesting": "Tokens are locked for 12 months (cliff), then released linearly over the next 36 months."
+    },
+    "ecosystem": {
+      "name": "Ecosystem Development",
+      "description": "Funds for partnerships, game development, and integrations.",
+      "purpose": "To finance the development of new features, Play-to-Earn games, integrations with other projects, and strategic partnerships.",
+      "vesting": "Released based on development needs, in line with roadmap achievements."
+    },
+    "reserves": {
+      "name": "Reserves & Treasury",
+      "description": "Strategic reserves for the project's future needs.",
+      "purpose": "To secure the project's future, fund unforeseen expenses, and allow for market intervention for stabilization purposes.",
+      "vesting": "Managed by the DAO. Releasing funds requires community approval."
+    },
+    "game_rewards": {
+      "name": "Game Rewards",
+      "description": "Play-to-Earn pool for active players.",
+      "purpose": "Incentivize gameplay and ecosystem activity.",
+      "vesting": "Released dynamically based on player activity."
+    },
+    "marketing": {
+      "name": "Marketing",
+      "description": "Funds for promotion and brand building.",
+      "purpose": "Global campaigns, influencer collaborations, and partnerships.",
+      "vesting": "Released linearly over 24 months."
+    },
+    "staking": {
+      "name": "Staking",
+      "description": "Staking rewards for token holders.",
+      "purpose": "Increase network security and reduce circulating supply.",
+      "vesting": "Paid from the rewards pool according to schedule."
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Roadmap",
+  "subtitle": "From an idea at the Christmas Eve table to a complete platform.",
+  "timeline_aria_label": "Roadmap timeline",
+  "progress_label": "Progress",
+  "now_label": "Now",
+  "progress_bar_aria": "Roadmap progress bar",
+  "legend_now": "Current quarter",
+  "see_full": "View full roadmap",
+  "status_done": "Completed",
+  "status_now": "In progress",
+  "status_next": "Upcoming",
+  "status_later": "Later",
+  "no_exact_date": "Exact date not available",
+  "filter_year": "Year",
+  "filter_quarter": "Quarter",
+  "filter_all": "All",
+  "phases": {
+    "foundation": {
+      "christmas": {
+        "title": "🎄 Idea Born (Q4 2024)",
+        "description": "At the Christmas table, between borscht and pierogi, a legend was born.",
+        "points": [
+          "First mention of PierogiCoin",
+          "Christmas inspiration from tradition",
+          "Decision to create a community game"
+        ]
+      },
+      "community": {
+        "title": "🌱 Community Genesis (Q1 2025)",
+        "description": "Building the tribe. First believers join the table.",
+        "points": [
+          "Social Media Launch",
+          "Core Team Assembly",
+          "Initial Whitepaper Draft"
+        ]
+      }
+    },
+    "development": {
+      "strategy": {
+        "title": "🧠 Strategy & Foundations (Q2 2025)",
+        "description": "Laying the groundwork. Smart contracts and security.",
+        "points": [
+          "Smart Contract Architecture",
+          "Security Audit Preparations",
+          "Pre-Marketing Campaign"
+        ]
+      },
+      "execution": {
+        "title": "🛠️ Execution (Q3 2025)",
+        "description": "Turning vision into reality. Building the ecosystem foundations.",
+        "points": [
+          "Website Development",
+          "Tokenomics Design",
+          "Game Engine Development (Telegram)"
+        ]
+      }
+    },
+    "launch": {
+      "game_start": {
+        "title": "🚀 Game Launch & Audit Fund (Q4 2025)",
+        "description": "The game goes live. Raising funds for security.",
+        "points": [
+          "Telegram Game Premiere",
+          "Security Audit Funding (Stage 1)",
+          "First Players & Rankings"
+        ]
+      },
+      "pierogi_power": {
+        "title": "🥟 Tokenization & Presale (Q1 2026)",
+        "description": "One year after the idea - time for global growth.",
+        "points": [
+          "Security Audit Completion",
+          "Main Presale Launch (Stage 2)",
+          "Full PRG Token Integration",
+          "Holiday NFT Drop"
+        ]
+      }
+    },
+    "expansion": {
+      "growth": {
+        "title": "📈 Liquidity & Listings (2026)",
+        "description": "Entering global markets. Exchanges and partnerships.",
+        "points": [
+          "CEX & DEX Listings",
+          "Liquidity Pool Launch",
+          "Major Brand Partnerships",
+          "DeFi Ecosystem Expansion"
+        ]
+      },
+      "second_game": {
+        "title": "🎮 Second Telegram Game (Q4 2026)",
+        "description": "This is just the beginning. The next chapter in gaming.",
+        "points": [
+          "New Game Premiere in the Universe",
+          "Cross-chain Integration",
+          "More Ways to Earn (P2E)"
+        ]
+      }
+    }
+  },
+  "quarter": {
+    "q4_2024": "Q4 2024",
+    "q1_2025": "Q1 2025",
+    "q2_2025": "Q2 2025",
+    "q3_2025": "Q3 2025",
+    "q4_2025": "Q4 2025"
+  }
+}

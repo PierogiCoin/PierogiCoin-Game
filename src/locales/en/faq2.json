@@ -1,0 +1,33 @@
+{
+    "section_title": "Frequently Asked Questions",
+    "section_subtitle": "Your questions, our answers. Find clarity on PierogiCoin specifics and join our journey with confidence.",
+    "search_placeholder": "Search FAQs (e.g., 'wallet', 'tokenomics')...",
+    "no_results_found": "No FAQs found matching \"{{searchTerm}}\". Try a different keyword?",
+    "categories": {
+        "general": "General Questions",
+        "buying": "Buying Tokens",
+        "token": "Token & Utility",
+        "security": "Security",
+        "project": "Project & Roadmap",
+        "community": "Community",
+        "other": "Other Inquiries"
+    },
+    "q_general_what_is": "What exactly is PierogiCoin?",
+    "a_general_what_is": "PierogiCoin (PRG) is a revolutionary utility token built on the Solana blockchain, designed to power a new ecosystem of decentralized applications and services. Our goal is to combine delicious community engagement with robust financial tools.",
+    "q_general_mission": "What is the mission of PierogiCoin?",
+    "a_general_mission": "Our mission is to create a transparent, secure, and community-driven DeFi platform that offers real-world utility and sustainable growth. We aim to make decentralized finance accessible and rewarding for everyone, seasoned investors and newcomers alike.",
+    "q_buying_how_to": "How can I buy PierogiCoin (PRG) tokens?",
+    "a_buying_how_to": "1. Set up a Solana-compatible wallet (e.g., Phantom, Solflare).\n2. Fund your wallet with SOL or USDC.\n3. During an active presale stage, visit our 'Buy Tokens' page and connect your wallet.\n4. Follow the instructions to swap your SOL/USDC for PRG tokens.",
+    "q_buying_accepted_crypto": "Which cryptocurrencies are accepted for buying PRG?",
+    "a_buying_accepted_crypto": "Currently, we accept Solana (SOL) and USDC (on the Solana network) for purchasing PRG tokens during our presale.",
+    "q_token_utility": "What is the utility of the PRG token?",
+    "a_token_utility": "PRG tokens will be central to the PierogiCoin ecosystem, granting access to exclusive features, governance rights, staking rewards, and potentially being used for transactions within our planned DApps and partner services.",
+    "q_token_total_supply": "What is the total supply of PRG tokens?",
+    "a_token_total_supply": "The total supply of PierogiCoin (PRG) is capped at 7,373,000,000 tokens. Details about the distribution can be found in our Tokenomics section and Whitepaper.",
+    "q_security_audits": "How is the security of PierogiCoin ensured?",
+    "a_security_audits": "Security is our top priority. Our smart contracts are developed following best practices and are scheduled for comprehensive audits by reputable third-party security firms before major launches. Audit reports will be made publicly available.",
+    "q_project_roadmap": "Where can I find the project roadmap?",
+    "a_project_roadmap": "Our detailed project roadmap, outlining key milestones, development phases, and future plans, is available on the 'Roadmap' page of our website. We regularly update it to reflect our progress.",
+    "q_community_join": "How can I join the PierogiCoin community?",
+    "a_community_join": "We'd love to have you! You can join our vibrant community on Telegram, Discord, and follow us on Twitter. Links can be found in the footer of our website and on the 'Contact' page."
+}

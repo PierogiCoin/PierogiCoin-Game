@@ -1,0 +1,8 @@
+{
+    "processing_payment": "Processing payment...",
+    "confirming_transaction": "Confirming transaction on the blockchain...",
+    "payment_successful": "Payment successful! Your tokens will be sent shortly.",
+    "view_transaction": "View Transaction",
+    "payment_failed": "Payment failed. Please try again.",
+    "transaction_rejected": "Transaction rejected by user."
+  }

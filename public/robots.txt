@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pierogimeme.io/sitemap.xml
+
+# Disallow admin/api routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow images
+Allow: /images/
+Allow: /icons/

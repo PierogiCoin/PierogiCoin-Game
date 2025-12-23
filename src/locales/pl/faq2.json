@@ -1,0 +1,33 @@
+{
+  "section_title": "Najczęściej Zadawane Pytania",
+  "section_subtitle": "Twoje pytania, nasze odpowiedzi. Znajdź jasność w temacie PierogiCoin i dołącz z pewnością.",
+  "search_placeholder": "Szukaj w FAQ (np. 'portfel', 'tokenomia')...",
+  "no_results_found": "Nie znaleziono FAQ pasujących do \"{{searchTerm}}\". Spróbuj innego słowa kluczowego?",
+  "categories": {
+    "general": "Ogólne pytania",
+    "buying": "Kupowanie tokenów",
+    "token": "Token i użyteczność",
+    "security": "Bezpieczeństwo",
+    "project": "Projekt i Roadmapa",
+    "community": "Społeczność",
+    "other": "Inne zapytania"
+  },
+  "q_general_what_is": "Czym dokładnie jest PierogiCoin?",
+  "a_general_what_is": "PierogiCoin (PRG) to rewolucyjny token użytkowy zbudowany na blockchainie Solana, zaprojektowany do zasilania nowego ekosystemu zdecentralizowanych aplikacji i usług. Naszym celem jest połączenie angażującej społeczności z solidnymi narzędziami finansowymi.",
+  "q_general_mission": "Jaka jest misja PierogiCoin?",
+  "a_general_mission": "Naszą misją jest stworzenie przejrzystej, bezpiecznej i napędzanej przez społeczność platformy DeFi, która oferuje realne zastosowania i zrównoważony wzrost. Chcemy uczynić zdecentralizowane finanse dostępnymi i opłacalnymi dla wszystkich.",
+  "q_buying_how_to": "Jak mogę kupić tokeny PierogiCoin (PRG)?",
+  "a_buying_how_to": "1. Skonfiguruj portfel kompatybilny z Solana (np. Phantom, Solflare).\n2. Doładuj portfel SOL lub USDC.\n3. Podczas aktywnego etapu przedsprzedaży odwiedź stronę 'Kup tokeny' i połącz portfel.\n4. Postępuj zgodnie z instrukcjami, aby wymienić SOL/USDC na tokeny PRG.",
+  "q_buying_accepted_crypto": "Jakie kryptowaluty są akceptowane przy zakupie PRG?",
+  "a_buying_accepted_crypto": "Obecnie akceptujemy Solana (SOL) i USDC (na sieci Solana) do zakupu tokenów PRG podczas przedsprzedaży.",
+  "q_token_utility": "Jaka jest użyteczność tokena PRG?",
+  "a_token_utility": "Tokeny PRG będą kluczowe dla ekosystemu PierogiCoin, dając dostęp do ekskluzywnych funkcji, praw głosu, nagród za staking i potencjalnie służąc do transakcji w planowanych DApps.",
+  "q_token_total_supply": "Jaka jest całkowita podaż tokenów PRG?",
+  "a_token_total_supply": "Całkowita podaż PierogiCoin (PRG) jest ograniczona do 7 373 000 000 tokenów. Szczegóły dystrybucji znajdziesz w sekcji Tokenomia i Whitepaper.",
+  "q_security_audits": "Jak zapewniane jest bezpieczeństwo PierogiCoin?",
+  "a_security_audits": "Bezpieczeństwo jest naszym priorytetem. Nasze smart kontrakty są rozwijane zgodnie z najlepszymi praktykami i zaplanowane są kompleksowe audyty przez renomowane firmy bezpieczeństwa. Raporty audytów będą publicznie dostępne.",
+  "q_project_roadmap": "Gdzie znajdę roadmapę projektu?",
+  "a_project_roadmap": "Nasza szczegółowa roadmapa z kluczowymi kamieniami milowymi i planami na przyszłość jest dostępna na stronie 'Roadmapa'. Regularnie ją aktualizujemy.",
+  "q_community_join": "Jak mogę dołączyć do społeczności PierogiCoin?",
+  "a_community_join": "Chętnie Cię powitamy! Możesz dołączyć do naszej społeczności na Telegramie, Discordzie i śledzić nas na Twitterze. Linki znajdziesz w stopce strony i na stronie 'Kontakt'."
+}

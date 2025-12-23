@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "Our story: From kitchen to cosmos",
+    "subtitle": "We believe the future of finance should be accessible, transparent, and a little delicious. We blend the warmth of tradition with the power of decentralized tech.",
+    "bg_alt": "Abstract background"
+  },
+  "kpi": {
+    "community": "Community members",
+    "tps_label": "Transactions per second",
+    "countries": "Countries",
+    "audits": "Audits"
+  },
+  "story": {
+    "heading": "Where the idea was born",
+    "paragraph1": "It started with a simple thought at the kitchen table: what if we built a cryptocurrency that embodied community, warmth, and shared values—like a perfect plate of pierogi? We saw a crypto world that often felt cold and complicated, and we wanted something different.",
+    "desc1": "It started with a simple thought at the kitchen table: what if we built a cryptocurrency that embodied community, warmth, and shared values—like a perfect plate of pierogi? We saw a crypto world that often felt cold and complicated, and we wanted something different.",
+    "paragraph2": "PierogiCoin was born from passion for cutting-edge tech and everyday joyful experiences. We’re building a bridge between DeFi and real life—rewards, community, and partnerships.",
+    "desc2": "PierogiCoin was born from passion for cutting-edge tech and everyday joyful experiences. We’re building a bridge between DeFi and real life—rewards, community, and partnerships.",
+    "image_alt": "Our story background"
+  },
+  "values": {
+    "heading": "Our values",
+    "community": {
+      "title": "Community",
+      "description": "Built for people and with people. Decisions together, rewards for contributors.",
+      "desc": "Built for people and with people. Decisions together, rewards for contributors."
+    },
+    "transparency": {
+      "title": "Transparency",
+      "description": "Clear rules, open code, and public reports. No tricks.",
+      "desc": "Clear rules, open code, and public reports. No tricks."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "We connect Web3 with the real world—games, partnerships, and utilities.",
+      "desc": "We connect Web3 with the real world—games, partnerships, and utilities."
+    },
+    "security": {
+      "title": "Security",
+      "description": "Audits, multisig, and solid infrastructure—security first.",
+      "desc": "Audits, multisig, and solid infrastructure—security first."
+    }
+  },
+  "trust": {
+    "community_label": "Community",
+    "community_value": "Driven",
+    "launch_label": "Launch Model",
+    "launch_value": "Fair Launch",
+    "transparency_label": "Principles",
+    "transparency_value": "Transparent"
+  },
+  "team": {
+    "heading": "Our Team",
+    "roles": {
+      "founder": "Founder",
+      "community": "Community Manager",
+      "dev": "Developer",
+      "design": "Designer"
+    }
+  },
+  "cta": {
+    "heading": "Join the PierogiCoin journey",
+    "description": "Check tokenomics, explore the roadmap, and hop into our community.",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Roadmap",
+    "discord": "Join on Discord",
+    "twitter": "Follow on X",
+    "view_tokenomics": "Tokenomics",
+    "view_roadmap": "Roadmap",
+    "join_discord": "Join on Discord",
+    "follow_twitter": "Follow on X",
+    "availability": {
+      "heading": "Play Anywhere",
+      "description": "Experience the PierogiCoin game on your favorite platform. Whether you're on mobile with Telegram or on desktop with your browser, the fun never stops.",
+      "telegram": "Play on Telegram",
+      "browser": "Play in Browser"
+    }
+  },
+  "stats": {
+    "aria": "Project statistics",
+    "items": [
+      {
+        "k": "stats.community",
+        "sub": "stats.community_sub",
+        "emoji": "👥"
+      },
+      {
+        "k": "stats.security",
+        "sub": "stats.security_sub",
+        "emoji": "🛡️"
+      },
+      {
+        "k": "stats.innovation",
+        "sub": "stats.innovation_sub",
+        "emoji": "⚡"
+      }
+    ],
+    "community": "Growth and Trust",
+    "community_sub": "We build long-term value",
+    "security": "Security and Transparency",
+    "security_sub": "We ensure audits and openness",
+    "innovation": "Innovation",
+    "innovation_sub": "Blending tradition with technology"
+  }
+}

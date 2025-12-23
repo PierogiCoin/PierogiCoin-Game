@@ -1,0 +1,34 @@
+{
+    "title": "Terms of Service",
+    "last_updated": "Last updated: June 17, 2024",
+    "agreement": {
+      "title": "1. Agreement to Terms",
+      "p1": "By accessing or using our website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, you may not use our services."
+    },
+    "risk": {
+      "title": "2. Assumption of Risk",
+      "p1": "You acknowledge that purchasing and holding cryptocurrencies, including PierogiCoin (PRG), involves significant risk. The value of cryptocurrencies can be volatile, and you may lose your entire investment. You are solely responsible for your investment decisions."
+    },
+    "user_obligations": {
+      "title": "3. User Obligations",
+      "p1": "You agree to:",
+      "list": {
+        "item1": "Provide accurate information when interacting with our services.",
+        "item2": "Be solely responsible for the security of your wallet and private keys.",
+        "item3": "Comply with all applicable laws and regulations in your jurisdiction."
+      }
+    },
+    "no_warranty": {
+      "title": "4. No Warranty",
+      "p1": "Our services are provided on an 'as is' and 'as available' basis without any warranties of any kind. We do not warrant that the service will be uninterrupted, timely, secure, or error-free."
+    },
+    "limitation_of_liability": {
+      "title": "5. Limitation of Liability",
+      "p1": "In no event shall PierogiCoin, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+    },
+    "changes": {
+      "title": "6. Changes to Terms",
+      "p1": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms on this page."
+    },
+    "on_this_page": "On this page"
+  }

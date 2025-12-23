@@ -1,0 +1,351 @@
+{
+  "title": "Dołącz do Projektu",
+  "subtitle": "Zdobądź PierogiCoin (PRG) wspierając fundusz audytowy. Bezpieczeństwo jest naszym priorytetem.",
+  "badge": "Zbiórka na Audyt Bezpieczeństwa (CertiK)",
+  "hero_title": "Zabezpiecz Przyszłość Projektu",
+  "hero_subtitle": "Wspomóż fundusz audytowy CertiK i zdobądź PRG w najniższej cenie przed listingiem.",
+  "presale_status_title": "Status Funduszu Audytowego",
+  "timer": {
+    "ends_in": "Zakończenie fazy za:",
+    "days": "DNI",
+    "hours": "GODZIN",
+    "minutes": "MINUT",
+    "seconds": "SEKUND"
+  },
+  "progress": {
+    "raised": "Zebrano na Audyt",
+    "goal": "Cel Audytu"
+  },
+  "metric": {
+    "current_stage_label": "Aktualna Faza",
+    "current_price_label": "Aktualna Cena",
+    "next_stage_price_label": "Cena w kolejnej fazie",
+    "stage_bonus_label": "Bonus Fazy"
+  },
+  "stages": {
+    "main_title": "Plan Rozwoju i Finansowania",
+    "status": {
+      "active": "Aktywny",
+      "completed": "Zakończony",
+      "upcoming": "Wkrótce"
+    },
+    "stage1": {
+      "title": "Faza 1: Audyt Bezpieczeństwa",
+      "date_range": "Cel: $15,000",
+      "bonus": "+25%"
+    },
+    "stage2": {
+      "title": "Faza 2: Płynność i Listing",
+      "date_range": "Po Audycie",
+      "bonus": "+10%"
+    },
+    "bonus": "+{{percent}}% Bonusu",
+    "no_bonus": "Brak Bonusu",
+    "ui": {
+      "stage_schedule_and_bonuses": "Harmonogram i Bonusy",
+      "stage_bonus": "Bonus Fazy",
+      "start": "Start",
+      "end": "Koniec",
+      "completed": "Zakończony",
+      "coming_soon": "Wkrótce",
+      "total_bonus_note": "Łączny bonus = Bonus fazy + Bonus za wielkość wpłaty",
+      "timezone_note": "Czasy w Twojej lokalnej strefie czasowej"
+    },
+    "card": {
+      "bonus_badge": "Bonus Fazy"
+    }
+  },
+  "bonus_tiers": {
+    "title": "Zwiększ swoje zyski: Dodatkowe Bonusy!",
+    "invest_and_get": "Wpłać ${{amount}}+",
+    "extra_bonus": "Zyskaj +{{percent}}% bonusu",
+    "examples": {
+      "tier1": "$500+ → +5% bonusu",
+      "tier2": "$1000+ → +10% bonusu",
+      "tier3": "$5000+ → +20% bonusu"
+    }
+  },
+  "process_title": "Jak wziąć udział?",
+  "process_steps": {
+    "step1": {
+      "title": "Wybierz Poziom",
+      "desc": "Wybierz preferowany poziom wsparcia poniżej."
+    },
+    "step2": {
+      "title": "Kopiuj Adres",
+      "desc": "Pobierz oficjalny adres portfela zbiórki."
+    },
+    "step3": {
+      "title": "Wyślij Środki",
+      "desc": "Przelej SOL lub USDC ze swojego portfela."
+    },
+    "step4": {
+      "title": "Odbierz PRG",
+      "desc": "Tokeny zostaną przypisane do Twojego konta."
+    }
+  },
+  "tiers_title": "Wybierz Poziom Fundatora",
+  "tiers_subtitle": "Wesprzyj audyt i odblokuj ekskluzywne korzyści Genesis.",
+  "tiers_list": {
+    "starter": {
+      "name": "Founder Initiate",
+      "features": [
+        "Brązowa Odznaka Fundatora",
+        "1.1x Bonus do Nagród Dziennych",
+        "Wczesny Dostęp do Przedsprzedaży"
+      ]
+    },
+    "investor": {
+      "name": "Founder Visionary",
+      "features": [
+        "Srebrna Odznaka Fundatora",
+        "1.25x Bonus do Nagród Dziennych",
+        "Ekskluzywna Ramka Profilu",
+        "Priorytetowe Wsparcie"
+      ]
+    },
+    "whale": {
+      "name": "Genesis Legend",
+      "features": [
+        "Złota Odznaka Fundatora",
+        "1.5x Bonus do Nagród Dziennych",
+        "Aura God Mode w Grze",
+        "Dostęp do Prywatnego Kanału Discord"
+      ]
+    }
+  },
+  "popular_badge": "Najpopularniejszy",
+  "contribute_btn": "Wesprzyj Projekt",
+  "why_audit": "Po co nam Audyt?",
+  "why_audit_desc": "Bezpieczeństwo to nasz priorytet nr 1. Audyt CertiK weryfikuje logikę naszego kodu, zabezpiecza środki użytkowników i jest obowiązkowym wymogiem dla wejścia na giełdy Tier-1.",
+  "audit_features": {
+    "security": {
+      "title": "Bezpieczeństwo Kodu",
+      "desc": "Smart kontrakty wolne od luk."
+    },
+    "trust": {
+      "title": "Zaufanie Inwestorów",
+      "desc": "Przejrzystość dla naszej społeczności."
+    },
+    "exchange": {
+      "title": "Gotowość giełdowa",
+      "desc": "Wymóg dla listingów Tier-1."
+    }
+  },
+  "stats": {
+    "secure_code": "Bezpieczny Kod",
+    "active_holders": "Aktywnych Posiadaczy",
+    "listing_target": "Planowany Listing",
+    "future_motto": "Przyszłość"
+  },
+  "utility_notice": "Nota o Zakupie Użyteczności: Wspierając Fundusz Audytu lub kupując Pakiety Założycielskie, potwierdzasz, że nabywasz cyfrowe przedmioty użytkowe i tokeny do wykorzystania w ekosystemie gry PierogiCoin. Wkłady te są darowiznami na rozwój projektu (audyt bezpieczeństwa) i nie stanowią umowy inwestycyjnej ani udziału w kapitale.",
+  "custom_amount": {
+    "title": "Lub wpisz własną kwotę",
+    "subtitle": "Użyj suwaka lub wpisz dowolną kwotę, aby kupić PRG"
+  },
+  "buy_section": {
+    "title": "Kup PRG przy użyciu Crypto",
+    "investment_amount_label": "Kwota wsparcia (USD)",
+    "crypto_selector_label": "Zapłać przez",
+    "amount_to_spend_label": "Wydasz w przybliżeniu",
+    "amount_input": {
+      "label": "Wpisz kwotę w USD",
+      "placeholder": "100.00",
+      "currency_symbol": "$",
+      "currency_label": "USD",
+      "you_will_spend_label": "Wydasz",
+      "approximate_symbol": "≈"
+    },
+    "bonus_slider": {
+      "unlock_next_bonus": "Wydaj ${{threshold}} USD, aby odblokować bonus {{percent}}%!",
+      "congrats_max_bonus": "Gratulacje! Osiągnięto maksymalny bonus!"
+    },
+    "summary": {
+      "title": "Podsumowanie Wsparcia",
+      "investment_amount": "Kwota wsparcia:",
+      "token_price": "Cena tokena:",
+      "base_tokens": "Bazowe PRG:",
+      "stage_bonus": "Bonus Fazy (+{{percent}}%):",
+      "investment_bonus": "Bonus za wielkość (+{{percent}}%):",
+      "total_tokens": "Suma PRG:",
+      "payment_amount_label": "Do zapłaty (około):",
+      "estimated_network_fee": "Szacowana opłata sieciowa:"
+    },
+    "buy_button": {
+      "buy_now": "Kup Teraz",
+      "processing": "Przetwarzanie...",
+      "buy_more": "Kup Więcej"
+    },
+    "status_active": "Aktywny",
+    "status_upcoming": "Wkrótce",
+    "status_completed": "Zakończony",
+    "stage_schedule": "Harmonogram faz i bonusy",
+    "timezone_note": "Czasy w Twojej lokalnej strefie czasowej",
+    "no_stages": "Brak skonfigurowanych faz.",
+    "stage_n": "Faza {{n}}",
+    "stage_hash_n": "Faza #{{n}}",
+    "start": "Start",
+    "end": "Koniec",
+    "stage_bonus_marketing": "Bonus Fazy",
+    "total_bonus_hint_title": "Łączny bonus",
+    "total_bonus_hint_text": "Bonus fazy + bonus za wielkość wpłaty. Sumują się one do bazowej ilości tokenów.",
+    "loading_data_banner": "Ładowanie cen i statusu przedsprzedaży...",
+    "amount_slider_aria": "Suwak kwoty zakupu",
+    "use_max": "Użyj maksimum ze swojego salda",
+    "max": "MAX",
+    "sol_balance": "Saldo SOL:",
+    "usdc_balance": "Saldo USDC:",
+    "card_payment_selected": "Bezpieczna płatność przez Stripe",
+    "investment_bonus": "Bonus inwestycyjny:",
+    "stage_bonus": "Bonus fazy:",
+    "current_price": "Aktualna cena",
+    "next_progress_milestone": "Następny kamień milowy: {{usd}} ({{pct}}%)",
+    "missing_to_next": "Brakuje {{usd}} do następnego progu",
+    "investment_bonuses": "Bonusy za wielkość wpłaty",
+    "bonus": "bonusu",
+    "bonus_calc_hint": "Twój całkowity bonus = Bonus Fazy + Bonus Inwestycyjny. Oba sumują się do bazowej stawki PRG.",
+    "manual_payment_title": "Płatność Manualna",
+    "manual_payment_desc": "Wyślij dokładnie podaną kwotę na poniższy adres, aby dokończyć transakcję.",
+    "payment_address_label": "Adres płatności:",
+    "required_amount_label": "Wymagana kwota:",
+    "manual_payment_tokens_note": "Otrzymasz {{amount}} PRG. Przetwarzanie transakcji może potrwać do kilku minut.",
+    "payment_details_title": "Szczegóły Płatności",
+    "payment_amount_label": "Kwota do zapłaty:",
+    "purchase_complete": "Zakup zakończony!",
+    "view_on_solscan": "Zobacz na Solscan",
+    "processing": "Przetwarzanie...",
+    "buy_now_btn": "Kup {{amount}} PRG",
+    "benefits": {
+      "title": "Dlaczego PierogiCoin?",
+      "items": {
+        "growth": {
+          "title": "Potencjał Wzrostu",
+          "desc": "Ograniczona przedsprzedaż i przejrzysta tokenomia."
+        },
+        "community": {
+          "title": "Społeczność",
+          "desc": "Rosnąca społeczność i realne zastosowania tokena."
+        },
+        "bonuses": {
+          "title": "Bonusy",
+          "desc": "Dodatkowe tokeny za fazę i wielkość inwestycji."
+        },
+        "ux": {
+          "title": "UX",
+          "desc": "Solana Pay, szybkie kwoty, MAX z portfela."
+        }
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ Funduszu Audytowego",
+    "items": {
+      "q1": {
+        "q": "Co to jest Fundusz Audytowy?",
+        "a": "To inicjatywa społeczności mająca na celu sfinansowanie profesjonalnego audytu CertiK przed wejściem na duże giełdy."
+      },
+      "q2": {
+        "q": "Kiedy dostanę tokeny PRG?",
+        "a": "Tokeny są przypisywane natychmiast po transakcji. Odbiór (claim) będzie możliwy po audycie i przygotowaniu płynności."
+      },
+      "q3": {
+        "q": "Co się stanie po zebraniu celu na audyt?",
+        "a": "Po osiągnięciu $15,000 i wykonaniu audytu, przejdziemy do Fazy 2: Główna Przedsprzedaż. Cena tokenów wzrośnie, a zebrane fundusze zostaną przeznaczone na Płynność (Listing CEX/DEX) oraz Globalny Marketing."
+      }
+    }
+  },
+  "referral": {
+    "title": "Program Poleceń i Zarabiania",
+    "subtitle": "Zaproś znajomych do wsparcia Funduszu Audytu i zarabiajcie PRG razem.",
+    "headline": "Rozwijaj Społeczność,",
+    "headline_highlight": "Zarabiaj Nagrody",
+    "invite_text": "Zaproś znajomych do wsparcia Funduszu Audytu i otrzymaj 5% wartości ich wpłaty w tokenach PRG. Twoi znajomi otrzymają również dodatkowe 2% bonusu do swojego zakupu!",
+    "you_get": "Ty dostajesz 5%",
+    "you_get_desc": "W tokenach PRG",
+    "they_get": "Oni dostają +2%",
+    "they_get_desc": "Dodatkowy Bonus",
+    "your_link": "Twój Link Polecający:",
+    "copy_link": "Kopiuj Link",
+    "link_copied": "Skopiowano!",
+    "share_x": "Udostępnij na X",
+    "connect_hint": "Proszę połącz portfel, aby wygenerować poprawny link polecający.",
+    "connect_wallet_first": "Połącz portfel, aby otrzymać swój spersonalizowany link!",
+    "share_text_x": "Wspieram Fundusz Audytowy PierogiCoin! 🥟 Użyj mojego linku, aby otrzymać dodatkowe 2% bonusu na tokeny PRG! #PierogiCoin $PRG",
+    "stats": {
+      "title": "Twoje Statystyki",
+      "referred": "Poleceni Znajomi",
+      "earned": "Zarobione PRG"
+    }
+  },
+  "next_phase": {
+    "title": "Ewolucja Projektu",
+    "subtitle": "Nasza droga jest podzielona na strategiczne kamienie milowe. Każda faza zwiększa wartość projektu.",
+    "active_title": "Faza 1: Audyt Bezpieczeństwa",
+    "active_desc": "Obecny cel: $15,000 na audyt CertiK i obsługę prawną. Gwarantowana najniższa cena.",
+    "phase2": "Faza 2: Główna Przedsprzedaż i Listing Fund",
+    "description": "Po pomyślnym sfinansowaniu i ukończeniu audytu bezpieczeństwa, uruchomimy Presale 1.0. Ta faza skoncentruje się na budowaniu płynności dla listingów na giełdach Tier-1.",
+    "price_warning": "Uwaga: Cena tokena wzrośnie o 150% w Fazie 2.",
+    "status_active": "Aktualnie Trwa"
+  },
+  "dashboard": {
+    "title": "Panel Gracza",
+    "headline": "Sprawdź swoje",
+    "headline_highlight": "Postępy w Grze",
+    "subtitle": "Wpisz swoją nazwę użytkownika z Telegrama lub adres e-mail powiązany z grą, aby natychmiast zobaczyć swoje aktywa i osiągnięcia.",
+    "placeholder": "Nazwa Telegram lub Email...",
+    "search_btn": "Szukaj",
+    "searching": "Szukam...",
+    "user_not_found": "Nie znaleziono gracza. Czy uruchomiłeś już grę?",
+    "active_player": "Aktywny Gracz",
+    "experience": "Doświadczenie",
+    "current_balance": "Aktualne Saldo",
+    "arena_rank": "Ranga Arena",
+    "points": "pkt",
+    "duels_won": "Wygrane Pojedynki",
+    "achievements": "Osiągnięcia",
+    "unlocked": "Odblokowano",
+    "tasks_done": "Zadania",
+    "network": "Sieć Poleceń",
+    "friends": "Znajomi",
+    "earn_passive": "Zarabiaj % pasywnie",
+    "open_game": "Otwórz Grę",
+    "shield_note": "Chcesz zarobić więcej? Uruchom grę i zbieraj Pierogi!",
+    "no_data": "Brak Danych",
+    "investment_stats": "Statystyki Inwestycji i Poleceń",
+    "total_invested": "Łącznie Zainwestowano",
+    "purchases": "zakupy",
+    "tokens_purchased": "Zakupione Tokeny",
+    "referral_earnings": "Zarobki z Poleceń",
+    "referrals_made": "polecenia",
+    "volume": "wolumen",
+    "my_stats": "Moje Statystyki",
+    "sign_in_prompt": "Zaloguj się, aby zobaczyć swoje osobiste statystyki gry i historię inwestycji",
+    "sign_in": "Zaloguj się",
+    "sign_up": "Stwórz Konto",
+    "email_placeholder": "Adres e-mail",
+    "password_placeholder": "Hasło",
+    "check_email": "Sprawdź skrzynkę e-mail, aby potwierdzić konto!",
+    "already_have_account": "Masz już konto? Zaloguj się",
+    "need_account": "Nie masz konta? Zarejestruj się",
+    "sign_out": "Wyloguj się",
+    "no_game_account": "Nie znaleziono konta w grze. Zacznij grać, aby zobaczyć swoje statystyki!",
+    "referral_link_label": "Twój Link Polecający",
+    "referral_bonus_desc": "Zarabiaj 5% PRG od każdego zakupu Twoich znajomych!",
+    "referred_count": "Poleconych",
+    "earned_label": "Zarobiłeś",
+    "referral_volume": "Wolumen Poleconych",
+    "investor_rank": "Ranga Inwestora",
+    "next_tier_progress": "Postęp do {{tier}}",
+    "recent_activity": "Ostatnia Aktywność",
+    "no_activity": "Brak ostatniej aktywności",
+    "welcome_back": "Witaj ponownie!",
+    "sign_in_hint": "Zaloguj się do swojego panelu PRG",
+    "login_btn": "Zaloguj się",
+    "register_btn": "Załóż konto",
+    "forgot_pass": "Zapomniałeś hasła?",
+    "buy_more_coins": "Kup Więcej Monet",
+    "play_game": "Graj w Grę",
+    "your_balance": "TWÓJ BALANS",
+    "welcome_user": "Witaj, {{name}}!"
+  }
+}

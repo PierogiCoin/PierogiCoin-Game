@@ -1,0 +1,25 @@
+{
+  "badge": "Dlaczego właśnie PierogiCoin?",
+  "title": "Dlaczego warto postawić na PierogiCoin?",
+  "subtitle": "PRG to nie tylko mem — to apetyczny sposób na dołączenie do dynamicznej społeczności z realnymi planami i praktyczną wartością.",
+  "feature1": {
+    "title": "Duży potencjał wzrostu",
+    "description": "Projekt w fazie początkowej, przejrzysta roadmapa i aktywna społeczność stawiają na długoterminowy rozwój."
+  },
+  "feature2": {
+    "title": "Bezpieczeństwo i transparentność",
+    "description": "Dbamy o przejrzystość i audyty, abyś miał pełną kontrolę i pewność co do projektu."
+  },
+  "feature3": {
+    "title": "Społeczność to siła",
+    "description": "PRG tworzą ludzie — wydarzenia, memy, partnerstwa. Razem rośniemy i świetnie się bawimy."
+  },
+  "feature4": {
+    "title": "Praktyczna wartość",
+    "description": "Od tokenomiki po przyszłe korzyści (gry, partnerstwa, restauracje) — PRG został zaprojektowany, by mieć prawdziwą użyteczność."
+  },
+  "cta": {
+    "tokenomics": "Zobacz tokenomię",
+    "buy": "Kup PRG"
+  }
+}

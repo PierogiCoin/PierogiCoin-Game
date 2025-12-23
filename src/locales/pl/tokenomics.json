@@ -1,0 +1,70 @@
+{
+  "title": "Nasza Tokenomia",
+  "subtitle": "Przejrzysta i zrównoważona dystrybucja tokenów, zaprojektowana z myślą o długoterminowym wzroście i zaangażowaniu społeczności.",
+  "total_supply_label": "Całkowita Podaż",
+  "chart_total_supply": "Całkowita Podaż",
+  "keyboard_help": "Użyj strzałek, aby nawigować, Enter aby zaznaczyć",
+  "legend_aria": "Legenda tokenomiki",
+  "chart_aria_label": "Wykres kołowy tokenomiki",
+  "modal": {
+    "total_allocation_label": "Pełna Alokacja",
+    "purpose_label": "Cel",
+    "vesting_label": "Harmonogram Uwalniania (Vesting)"
+  },
+  "segments": {
+    "presale": {
+      "name": "Przedsprzedaż",
+      "description": "Tokeny dostępne dla wczesnych wspierających projektu.",
+      "purpose": "Zapewnienie funduszy na wczesny rozwój, marketing i budowę społeczności.",
+      "vesting": "100% tokenów dostępnych od razu po zakończeniu przedsprzedaży (TGE - Token Generation Event)."
+    },
+    "liquidity": {
+      "name": "Płynność",
+      "description": "Zapewnienie płynności na zdecentralizowanych giełdach (DEX).",
+      "purpose": "Umożliwienie płynnego handlu tokenem PRG na giełdach takich jak Raydium i Orca, co jest kluczowe dla stabilności ceny.",
+      "vesting": "50% zablokowane na stałe w puli płynności. Pozostałe 50% uwalniane liniowo przez 24 miesiące."
+    },
+    "community_rewards": {
+      "name": "Nagrody dla Społeczności",
+      "description": "Nagrody za staking, airdropy i aktywność.",
+      "purpose": "Nagradzanie aktywnych i lojalnych członków społeczności za ich wkład w rozwój ekosystemu.",
+      "vesting": "Uwalniane stopniowo poprzez programy stakingowe i wydarzenia społecznościowe przez 48 miesięcy."
+    },
+    "team": {
+      "name": "Zespół",
+      "description": "Alokacja dla założycieli i kluczowych członków zespołu.",
+      "purpose": "Motywowanie i wynagradzanie zespołu za długoterminową pracę nad projektem.",
+      "vesting": "Tokeny zablokowane na 12 miesięcy (cliff), następnie uwalniane liniowo przez kolejne 36 miesięcy."
+    },
+    "ecosystem": {
+      "name": "Rozwój Ekosystemu",
+      "description": "Fundusze na partnerstwa, rozwój gier i integracje.",
+      "purpose": "Finansowanie rozwoju nowych funkcjonalności, gier Play-to-Earn, integracji z innymi projektami i partnerstw strategicznych.",
+      "vesting": "Uwalniane w zależności od potrzeb rozwojowych, zgodnie z osiągnięciami na mapie drogowej."
+    },
+    "reserves": {
+      "name": "Rezerwy i Skarbiec",
+      "description": "Strategiczne rezerwy na przyszłe potrzeby projektu.",
+      "purpose": "Zabezpieczenie przyszłości projektu, finansowanie nieprzewidzianych wydatków i możliwość interwencji rynkowej w celu stabilizacji.",
+      "vesting": "Zarządzane przez DAO. Uwalnianie środków wymaga zgody społeczności."
+    },
+    "game_rewards": {
+      "name": "Nagrody w Grze",
+      "description": "Pula Play-to-Earn dla aktywnych graczy.",
+      "purpose": "Zachęcanie do gry i aktywności w ekosystemie.",
+      "vesting": "Uwalniane dynamicznie w oparciu o aktywność graczy."
+    },
+    "marketing": {
+      "name": "Marketing",
+      "description": "Fundusze na promocję i budowanie marki.",
+      "purpose": "Globalne kampanie, współpraca z influencerami i partnerstwa.",
+      "vesting": "Uwalniane liniowo przez 24 miesiące."
+    },
+    "staking": {
+      "name": "Staking",
+      "description": "Nagrody za staking dla posiadaczy tokenów.",
+      "purpose": "Zwiększenie bezpieczeństwa sieci i redukcja podaży w obiegu.",
+      "vesting": "Wypłacane z puli nagród zgodnie z harmonogramem."
+    }
+  }
+}

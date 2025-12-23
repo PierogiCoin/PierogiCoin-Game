@@ -1,0 +1,28 @@
+{
+    "common": {
+      "email_placeholder": "Twój adres e-mail",
+      "subscribe_button": "Zapisz się",
+      "subscribing_button": "Zapisywanie...",
+      "validation": {
+        "email_invalid": "Podaj poprawny adres e-mail."
+      },
+      "toast_purchase_error_prefix": "Błąd transakcji"
+    },
+    "footer": {
+      "project_short_description": "Najsmaczniejsza kryptowaluta na świecie. Dołącz do rewolucji PierogiCoin!",
+      "newsletter": {
+        "title": "Zapisz się do newslettera",
+        "description": "Bądź na bieżąco z nowościami, partnerstwami i wydarzeniami.",
+        "subscribe_success": "✅ Subskrypcja zakończona pomyślnie! Witamy.",
+        "subscribe_error": "⚠️ Ups! Coś poszło nie tak. Spróbuj ponownie."
+      },
+      "quick_links_title": "Szybkie linki",
+      "resources_title": "Zasoby",
+      "social": {
+        "follow_us_title": "Śledź naszą podróż!",
+        "stay_connected_text": "Bądź na bieżąco z najnowszymi aktualizacjami, wiadomościami i wydarzeniami społecznościowymi. Dołącz do rodziny Pierogi!"
+      },
+      "rights_reserved": "Wszelkie prawa zastrzeżone.",
+      "disclaimer": "Żadna informacja na tej stronie nie stanowi porady finansowej. Zawsze dokonuj własnej analizy przed inwestycją."
+    }
+  }

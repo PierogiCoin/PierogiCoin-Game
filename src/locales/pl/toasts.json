@@ -1,0 +1,8 @@
+{
+    "processing_payment": "Przetwarzanie płatności...",
+    "confirming_transaction": "Potwierdzanie transakcji na blockchainie...",
+    "payment_successful": "Płatność udana! Twoje tokeny zostaną wkrótce wysłane.",
+    "view_transaction": "Zobacz transakcję",
+    "payment_failed": "Płatność nieudana. Spróbuj ponownie.",
+    "transaction_rejected": "Transakcja odrzucona przez użytkownika."
+  }

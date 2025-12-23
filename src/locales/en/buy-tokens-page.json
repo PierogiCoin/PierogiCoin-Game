@@ -1,0 +1,351 @@
+{
+  "title": "Join the Presale Now",
+  "subtitle": "Secure PierogiCoin (PRG) at the best price before exchange listings. Be part of the revolution!",
+  "badge": "Security Audit Fund (CertiK)",
+  "hero_title": "Secure the Future of PRG",
+  "hero_subtitle": "Support the CertiK audit fund and secure PRG at the lowest price before listing.",
+  "presale_status_title": "Audit Funding Status",
+  "timer": {
+    "ends_in": "Ends in:",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "progress": {
+    "raised": "Raised for Audit",
+    "goal": "Audit Goal"
+  },
+  "metric": {
+    "current_stage_label": "Current Stage",
+    "current_price_label": "Current Price",
+    "next_stage_price_label": "Next Stage Price",
+    "stage_bonus_label": "Stage Bonus"
+  },
+  "stages": {
+    "main_title": "Funding Phases",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "upcoming": "Upcoming"
+    },
+    "stage1": {
+      "title": "Phase 1: Security Audit",
+      "date_range": "Target: $15,000",
+      "bonus": "+25%"
+    },
+    "stage2": {
+      "title": "Phase 2: Liquidity & Listing",
+      "date_range": "Post-Audit",
+      "bonus": "+10%"
+    },
+    "bonus": "+{{percent}}% Bonus",
+    "no_bonus": "No Bonus",
+    "ui": {
+      "stage_schedule_and_bonuses": "Funding Roadmap & Bonuses",
+      "stage_bonus": "Phase Bonus",
+      "start": "Start",
+      "end": "End",
+      "completed": "Completed",
+      "coming_soon": "Coming Soon",
+      "total_bonus_note": "Total bonus = Phase bonus + investment size bonus",
+      "timezone_note": "Times shown in your local timezone"
+    },
+    "card": {
+      "bonus_badge": "Phase Bonus"
+    }
+  },
+  "bonus_tiers": {
+    "title": "Boost Your Rewards: Extra Bonuses!",
+    "invest_and_get": "Invest ${{amount}}+",
+    "extra_bonus": "Get +{{percent}}% bonus",
+    "examples": {
+      "tier1": "$500+ → +2% bonus",
+      "tier2": "$1000+ → +5% bonus",
+      "tier3": "$5000+ → +10% bonus"
+    }
+  },
+  "process_title": "How to Participate?",
+  "process_steps": {
+    "step1": {
+      "title": "Choose Tier",
+      "desc": "Select your contribution level below."
+    },
+    "step2": {
+      "title": "Copy Address",
+      "desc": "Get the official Presale Wallet address."
+    },
+    "step3": {
+      "title": "Send Funds",
+      "desc": "Transfer SOL or USDC from your wallet."
+    },
+    "step4": {
+      "title": "Receive PRG",
+      "desc": "Tokens are airdropped within 24h."
+    }
+  },
+  "tiers_title": "Founder Tier Selection",
+  "tiers_subtitle": "Support the audit and unlock exclusive Genesis benefits.",
+  "tiers_list": {
+    "starter": {
+      "name": "Founder Initiate",
+      "features": [
+        "Bronze Founder Badge",
+        "1.1x Daily Rewards",
+        "Presale Access"
+      ]
+    },
+    "investor": {
+      "name": "Founder Visionary",
+      "features": [
+        "Silver Founder Badge",
+        "1.25x Daily Rewards",
+        "Exclusive Profile Frame",
+        "Priority Support"
+      ]
+    },
+    "whale": {
+      "name": "Genesis Legend",
+      "features": [
+        "Gold Founder Badge",
+        "1.5x Daily Rewards",
+        "God Mode Aura",
+        "Private Discord Channel"
+      ]
+    }
+  },
+  "popular_badge": "Most Popular",
+  "contribute_btn": "Contribute Now",
+  "why_audit": "Why an Audit?",
+  "why_audit_desc": "Security is our #1 priority. A CertiK audit verifies our code logic, secures user funds, and is a mandatory requirement for listing on Tier-1 exchanges.",
+  "audit_features": {
+    "security": {
+      "title": "Code Security",
+      "desc": "Vulnerability-free smart contracts."
+    },
+    "trust": {
+      "title": "Investor Trust",
+      "desc": "Transparency for our community."
+    },
+    "exchange": {
+      "title": "Exchange Ready",
+      "desc": "Pre-requisite for Tier-1 listings."
+    }
+  },
+  "stats": {
+    "secure_code": "Code Security",
+    "active_holders": "Active Holders",
+    "listing_target": "Listing Target",
+    "future_motto": "The Future"
+  },
+  "utility_notice": "Utility Purchase Notice: By contributing to the Audit Fund or purchasing Founder Tiers, you acknowledge that you are acquiring digital utility items and tokens for use within the PierogiCoin game ecosystem. These contributions are donations towards project development (security audit) and do not represent an investment contract or equity stake.",
+  "custom_amount": {
+    "title": "Or Enter Custom Amount",
+    "subtitle": "Use the slider or type any amount to buy PRG"
+  },
+  "buy_section": {
+    "title": "Buy PRG with Crypto",
+    "investment_amount_label": "Investment Amount (USD)",
+    "crypto_selector_label": "Pay with",
+    "amount_to_spend_label": "You will spend approximately",
+    "amount_input": {
+      "label": "Enter amount in USD",
+      "placeholder": "100.00",
+      "currency_symbol": "$",
+      "currency_label": "USD",
+      "you_will_spend_label": "You will spend",
+      "approximate_symbol": "≈"
+    },
+    "bonus_slider": {
+      "unlock_next_bonus": "Spend ${{threshold}} USD to unlock a {{percent}}% bonus!",
+      "congrats_max_bonus": "Congratulations! Maximum bonus achieved!"
+    },
+    "summary": {
+      "title": "Purchase Summary",
+      "investment_amount": "Investment Amount:",
+      "token_price": "Token Price:",
+      "base_tokens": "Base PRG Tokens:",
+      "stage_bonus": "Phase Bonus (+{{percent}}%):",
+      "investment_bonus": "Investment Bonus (+{{percent}}%):",
+      "total_tokens": "Total PRG Tokens:",
+      "payment_amount_label": "Amount to pay (approx.):",
+      "estimated_network_fee": "Est. network fee:"
+    },
+    "buy_button": {
+      "buy_now": "Buy Now",
+      "processing": "Processing...",
+      "buy_more": "Buy More"
+    },
+    "status_active": "Active",
+    "status_upcoming": "Coming soon",
+    "status_completed": "Completed",
+    "stage_schedule": "Stage schedule & bonuses",
+    "timezone_note": "Times shown in your local timezone",
+    "no_stages": "No stages configured yet.",
+    "stage_n": "Stage {{n}}",
+    "stage_hash_n": "Stage #{{n}}",
+    "start": "Start",
+    "end": "End",
+    "stage_bonus_marketing": "Stage Bonus",
+    "total_bonus_hint_title": "Total bonus",
+    "total_bonus_hint_text": "Stage bonus + investment size bonus. It stacks on top of the base token rate.",
+    "loading_data_banner": "Loading prices and presale status…",
+    "amount_slider_aria": "Purchase amount slider",
+    "use_max": "Use the maximum from your balance",
+    "max": "MAX",
+    "sol_balance": "SOL balance:",
+    "usdc_balance": "USDC balance:",
+    "card_payment_selected": "Secure payment via Stripe",
+    "investment_bonus": "Investment bonus:",
+    "stage_bonus": "Stage bonus:",
+    "current_price": "Current Price",
+    "next_progress_milestone": "Next milestone: {{usd}} ({{pct}}%)",
+    "missing_to_next": "Need {{usd}} more to next tier",
+    "investment_bonuses": "Investment size bonuses",
+    "bonus": "bonus",
+    "bonus_calc_hint": "Your total bonus = Stage Bonus + Investment Bonus. Both stack on top of the base PRG rate.",
+    "manual_payment_title": "Manual Payment",
+    "manual_payment_desc": "Send precisely the specified amount to the address below to complete the transaction.",
+    "payment_address_label": "Payment address:",
+    "required_amount_label": "Required amount:",
+    "manual_payment_tokens_note": "You will receive {{amount}} PRG. Transaction processing may take up to a few minutes.",
+    "payment_details_title": "Payment Details",
+    "payment_amount_label": "Amount to pay:",
+    "purchase_complete": "Purchase complete!",
+    "view_on_solscan": "View on Solscan",
+    "processing": "Processing...",
+    "buy_now_btn": "Buy {{amount}} PRG",
+    "benefits": {
+      "title": "Why PierogiCoin?",
+      "items": {
+        "growth": {
+          "title": "Growth Potential",
+          "desc": "Limited presale and transparent tokenomics."
+        },
+        "community": {
+          "title": "Community",
+          "desc": "Growing community and real use-cases for the token."
+        },
+        "bonuses": {
+          "title": "Bonuses",
+          "desc": "Additional tokens for stage and investment size."
+        },
+        "ux": {
+          "title": "UX",
+          "desc": "Solana Pay, fast amounts, MAX from balance."
+        }
+      }
+    }
+  },
+  "faq": {
+    "title": "Audit Fund FAQ",
+    "items": {
+      "q1": {
+        "q": "What is the Audit Fund?",
+        "a": "It's a community-driven initiative to fund a professional CertiK audit for PierogiCoin, ensuring maximum security before exchange listings."
+      },
+      "q2": {
+        "q": "When will I get my PRG tokens?",
+        "a": "Tokens are allocated immediately. Withdrawal/Airdrop will occur during the TGE phase after the audit and liquidity setup."
+      },
+      "q3": {
+        "q": "What happens after the audit goal is met?",
+        "a": "Once we reach $15,000 and complete the audit, we will move to Phase 2: The Main Presale. The token price will increase, and funds will be dedicated to Liquidity (CEX/DEX listing) and Global Marketing."
+      }
+    }
+  },
+  "referral": {
+    "title": "Refer & Earn Program",
+    "subtitle": "Invite friends to the Audit Fund and earn PRG together.",
+    "headline": "Grow the Community,",
+    "headline_highlight": "Get Rewarded",
+    "invite_text": "Invite your friends to the Audit Fund and earn 5% of their contribution value in PRG tokens. Your friends also get an extra 2% bonus on their purchase!",
+    "you_get": "You Get 5%",
+    "you_get_desc": "In PRG tokens",
+    "they_get": "They Get +2%",
+    "they_get_desc": "Extra Bonus",
+    "your_link": "Your Referral Link:",
+    "copy_link": "Copy Link",
+    "link_copied": "Link Copied!",
+    "share_x": "Share on X",
+    "connect_hint": "Please connect your wallet to generate a valid referral address.",
+    "connect_wallet_first": "Connect your wallet to get your personalized link!",
+    "share_text_x": "I'm supporting the PierogiCoin Audit Fund! 🥟 Use my link to get an extra 2% bonus on your PRG tokens! #PierogiCoin $PRG",
+    "stats": {
+      "title": "Your Stats",
+      "referred": "Friends Referred",
+      "earned": "Total PRG Earned"
+    }
+  },
+  "next_phase": {
+    "title": "Project Evolution",
+    "subtitle": "Our journey is divided into strategic milestones. Each phase increases the project value.",
+    "active_title": "Phase 1: Security Audit",
+    "active_desc": "Current goal: $15,000 for CertiK Audit & Legal. Guaranteed lowest price.",
+    "phase2": "Phase 2: Main Presale & Listing Fund",
+    "description": "After successfully funding and completing the security audit, we will launch Presale 1.0. This phase will focus on building liquidity for Tier-1 listings.",
+    "price_warning": "Warning: Token price will increase by 150% in Phase 2.",
+    "status_active": "Active Now"
+  },
+  "dashboard": {
+    "title": "Player Dashboard",
+    "headline": "Check Your",
+    "headline_highlight": "In-Game Progress",
+    "subtitle": "Enter your Telegram username or email address associated with the game to instantly view your assets and achievements.",
+    "placeholder": "Telegram username or Email...",
+    "search_btn": "Search",
+    "searching": "Searching...",
+    "user_not_found": "No player found with this identifier. Have you started the game yet?",
+    "active_player": "Active Player",
+    "experience": "Experience",
+    "current_balance": "Current Balance",
+    "arena_rank": "Arena Rank",
+    "points": "Pts",
+    "duels_won": "Duels Won",
+    "achievements": "Achievements",
+    "unlocked": "Unlocked",
+    "tasks_done": "Tasks Done",
+    "network": "Network",
+    "friends": "Friends",
+    "earn_passive": "Earn Passive %",
+    "open_game": "Open Game",
+    "shield_note": "Want to earn more? Launch the game and keep tapping!",
+    "no_data": "No Data Found",
+    "investment_stats": "Investment & Referral Stats",
+    "total_invested": "Total Invested",
+    "purchases": "purchases",
+    "tokens_purchased": "Tokens Purchased",
+    "referral_earnings": "Referral Earnings",
+    "referrals_made": "referrals",
+    "volume": "volume",
+    "my_stats": "My Stats",
+    "sign_in_prompt": "Sign in to view your personal game statistics and investment history",
+    "sign_in": "Sign In",
+    "sign_up": "Create Account",
+    "email_placeholder": "Email address",
+    "password_placeholder": "Password",
+    "check_email": "Check your email for the confirmation link!",
+    "already_have_account": "Already have an account? Sign In",
+    "need_account": "Don't have an account? Sign Up",
+    "sign_out": "Sign Out",
+    "no_game_account": "No game account found. Start playing to see your stats!",
+    "referral_link_label": "Your Referral Link",
+    "referral_bonus_desc": "Earn 5% PRG from every purchase made by your friends!",
+    "referred_count": "Referred",
+    "earned_label": "You Earned",
+    "referral_volume": "Referral Volume",
+    "investor_rank": "Investor Rank",
+    "next_tier_progress": "Progress to {{tier}}",
+    "recent_activity": "Recent Activity",
+    "no_activity": "No recent activity",
+    "welcome_back": "Welcome back!",
+    "sign_in_hint": "Sign in to your PRG dashboard",
+    "login_btn": "Sign In",
+    "register_btn": "Sign Up",
+    "forgot_pass": "Forgot password?",
+    "buy_more_coins": "Buy More Coins",
+    "play_game": "Open Game",
+    "your_balance": "YOUR BALANCE",
+    "welcome_user": "Welcome, {{name}}!"
+  }
+}

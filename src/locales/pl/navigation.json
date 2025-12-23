@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "home": "Główna",
+    "about": "O nas",
+    "whitepaper": "Whitepaper",
+    "tokenomics": "Tokenomia",
+    "roadmap": "Mapa Drogowa",
+    "faq": "FAQ",
+    "buy_tokens": "Kup Tokeny",
+    "contact": "Kontakt",
+    "nfts": "NFT",
+    "dashboard": "Panel"
+  },
+  "menu": {
+    "open": "Otwórz menu nawigacji",
+    "close": "Zamknij menu nawigacji"
+  },
+  "palette": {
+    "placeholder": "Szukaj strony...",
+    "no_results": "Brak wyników",
+    "hint": "Nawiguj: ↑ ↓, Enter aby przejść",
+    "close": "zamknij"
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "title": "Napędź",
+    "title_highlight": "Rewolucję",
+    "subtitle": "Dołącz do społeczności, aby sfinansować audyt smart kontraktu i uruchomić przedsprzedaż. Wybierz swoją drogę wsparcia PierogiCoin.",
+    "gamer": {
+        "title": "Klub Założycieli + Season Pass",
+        "subtitle": "Bądź jednym z pierwszych 1000 graczy wspierających PierogiCoin.",
+        "popular_badge": "LIMITOWANA OFERTA",
+        "card_title": "Pakiet Założyciela ($4.99)",
+        "spots_left": "Zostało miejsc: {{count}} / 1000",
+        "features": {
+            "prg_bonus": "Dożywotni Mnożnik Airdropu 1.5x",
+            "earnings_boost": "Unikalna Skórka \"Złoty Pieróg\"",
+            "founder_badge": "Prawo Głosu i Wczesny Dostęp (Beta)"
+        },
+        "cta": "Zostań Założycielem"
+    },
+    "collector": {
+        "title": "Złoty Pieróg NFT",
+        "subtitle": "Genesis Collection • Tylko 500 sztuk",
+        "coming_soon": "Wkrótce Dostępne",
+        "collection_name": "The Golden Pieróg #001",
+        "card_title": "Zdobądź Relikt",
+        "description": "Legendarne NFT 'Złoty Pieróg'. Daje pasywny dochód (+10% Staking APY) i zmienia Twoją postać w grze w czyste złoto.",
+        "cta": "Zobacz na Magic Eden (Wkrótce)"
+    },
+    "live_activity": {
+        "label": "Na Żywo",
+        "actions": {
+            "bought_founder": "kupił Pakiet Założyciela",
+            "earned_prg": "zarobił {{amount}} PRG",
+            "joined_game": "dołączył do gry",
+            "reached_level": "osiągnął Poziom {{level}}",
+            "donated_audit": "przekazał ${{amount}} na Audyt",
+            "bought_pass": "kupił Karnet Sezonowy"
+        },
+        "time": {
+            "minutes_ago": "{{count}} min temu"
+        }
+    },
+    "audit_tracker": {
+        "title": "Postęp Funduszu Audytu",
+        "goal_reached": "CEL OSIĄGNIĘTY!",
+        "community_funded": "Udało się! Audyt sfinansowany przez społeczność!",
+        "subtitle": "Audyt bezpieczeństwa finansowany przez społeczność • Przedsprzedaż po audycie",
+        "days_to_deadline": "Dni do Deadline",
+        "players": "Gracze",
+        "prg_today": "PRG Dziś",
+        "milestones_title": "KAMIENIE MILOWE SPOŁECZNOŚCI",
+        "milestone_1": "+10% Bonus PRG",
+        "milestone_2": "Airdrop NFT",
+        "milestone_3": "PRZEDSPRZEDAŻ AKTYWNA!",
+        "unlocked": "ODBLOKOWANE!",
+        "play_cta": "Graj i Zarabiaj PRG",
+        "support_via": "lub wspieraj przez Dotację / NFT",
+        "earn_free": "Zarabiaj tokeny PRG ZA DARMO grając • Bez inwestycji"
+    },
+    "donation_widget": {
+        "title": "Wspierający",
+        "subtitle": "Czyste wsparcie, bez zobowiązań",
+        "buy_coffee": "Kup Devom Kawę",
+        "coffee_desc": "Wspieraj bezpośrednio dawkę kofeiny zespołu pracującego nad audytem i grą.",
+        "via_solana": "PRZEZ SOLANA (SOL/USDC)",
+        "show_qr": "Pokaż QR",
+        "close_qr": "Zamknij Kod QR",
+        "copied": "Adres skopiowany!",
+        "share_x": "Udostępnij na X",
+        "share_text": "Wspieram zbiórkę na Audyt PierogiCoin! 🥟 Dołącz do Klubu Założycieli i zabezpiecz przyszłość najsmaczniejszego projektu na Solanie. #PierogiCoin $PRG",
+        "stripe_fiat": "Stripe / Fiat"
+    }
+}

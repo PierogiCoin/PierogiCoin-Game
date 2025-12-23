@@ -1,0 +1,190 @@
+{
+  "hero": {
+    "badge_phase": "Phase 1: Play-to-Fund Live",
+    "title_prefix": "The First",
+    "title_highlight": "Play-to-Audit",
+    "title_suffix": "Revolution",
+    "subtitle_prefix": "We are raising",
+    "subtitle_highlight": "$15,000 for a Professional Audit",
+    "subtitle_suffix": "purely through gameplay and transparency.",
+    "subtitle_note": "No presale until the code is proven safe.",
+    "cta_telegram": "Play on Telegram",
+    "cta_browser": "Play in Browser",
+    "cta_dashboard": "My Dashboard",
+    "cta_progress": "View Progress",
+    "stat_players": "Players",
+    "stat_goal": "Audit Goal",
+    "stat_launch": "Fair Launch"
+  },
+  "trust_badges": {
+    "title": "Trust & Transparency",
+    "subtitle": "Building PRG the right way - step by step",
+    "audit_label": "Audit Coming Soon",
+    "audit_desc": "Security audit after $15K goal",
+    "community_label": "Community Driven",
+    "community_desc": "Transparent fundraising model",
+    "legal_label": "Legal Compliance",
+    "legal_desc": "Legal review in progress",
+    "play_label": "Play & Earn Live",
+    "play_desc": "Telegram game launched",
+    "live": "Live",
+    "soon": "Soon",
+    "security_note_prefix": "Security First:",
+    "security_note": "We're raising funds transparently through our game to fund professional audits before presale."
+  },
+  "founders_club": {
+    "badge": "Limited Time Offer",
+    "title_prefix": "Join the",
+    "title_highlight": "Founder's Club",
+    "description": "Be one of the first 1,000 players to support PierogiCoin. Unlock permanent boosting privileges and secure your legacy before the Q1 2026 launch.",
+    "cta_button": "Become a Founder ($4.99)",
+    "spots_left": "Only {{count}} / 1000 spots left",
+    "features": {
+      "status": {
+        "title": "Founder Status Badge",
+        "desc": "Exclusive in-game badge showing you were here first."
+      },
+      "earnings": {
+        "title": "25% Earnings Boost",
+        "desc": "Permanent multiplier for all future PRG earnings."
+      },
+      "whitelist": {
+        "title": "Priority Whitelist",
+        "desc": "Guaranteed spot in presale audit-verified rounds."
+      },
+      "season_pass": {
+        "title": "Season Pass Included",
+        "desc": "Instant access to Month 1 Premium rewards."
+      }
+    }
+  },
+  "live_stats": {
+    "label_live": "LIVE NOW",
+    "title_prefix": "Game Stats",
+    "title_highlight": "Real-Time",
+    "subtitle": "Join thousands of players earning PRG tokens right now",
+    "stat_active": "Active Players",
+    "stat_earned": "PRG Earned Today",
+    "stat_games": "Games Played",
+    "stat_score": "Top Score",
+    "cta": "Play Now on Telegram"
+  },
+  "why_section": {
+    "title": "Why PierogiCoin?",
+    "subtitle": "Discover the unique benefits that make PierogiCoin a delicious and future-proof investment.",
+    "features": {
+      "technology": {
+        "title": "Innovative Technology",
+        "description": "Built on a lightning-fast and secure next-generation blockchain, ensuring smooth and reliable transactions."
+      },
+      "community": {
+        "title": "Growing Community",
+        "description": "Become part of a dynamic, global community of enthusiasts, developers, and investors all passionate about PierogiCoin."
+      },
+      "tokenomics": "See Tokenomics",
+      "security": {
+        "title": "Security & Audits",
+        "description": "Our smart contracts are meticulously developed and scheduled for thorough audits by reputable security firms."
+      },
+      "potential": {
+        "title": "High Growth Potential",
+        "description": "Positioned in the rapidly expanding Web3 market with strong fundamentals and a clear vision for future growth."
+      },
+      "utility": {
+        "title": "Real-World Utility",
+        "description": "Designed from the ground up with practical applications and tangible use cases within the PierogiCoin ecosystem and beyond."
+      }
+    }
+  },
+  "how_to_buy_section": {
+    "title": "Funding Hub Live!",
+    "journey_title_prefix": "Start Your",
+    "journey_title_highlight": "Journey",
+    "journey_desc": "We are in the <b>Pre-Audit Phase</b>. Follow these steps to prepare your wallet and secure your Early Supporter status.",
+    "subtitle": "This is not a standard presale. We are raising funds for a Professional Audit to ensure 100% security. Support us or play to earn.",
+    "steps": {
+      "1": {
+        "title": "1. Get a Wallet",
+        "description": "Install Phantom or Solflare. This will be your vault for game rewards and future PRG tokens.",
+        "cta": "Download Phantom"
+      },
+      "2": {
+        "title": "2. Load Up SOL",
+        "description": "You'll need a small amount of SOL for transaction fees or a voluntary donation to the Audit Fund."
+      },
+      "3": {
+        "title": "3. Support or Play",
+        "description": "Instead of buying blind, donate to the Audit Fund or mine PRG in our Telegram game to secure your allocation."
+      },
+      "4": {
+        "title": "4. Join Whitelist",
+        "description": "Every donation and in-game activity guarantees you a spot on the Whitelist before the main launch."
+      }
+    },
+    "cta_button": "Go to Funding Hub"
+  },
+  "presale_card": {
+    "title": "The Presale is Live!"
+  },
+  "about_section": {
+    "title": "About PierogiCoin",
+    "subtitle": "More than just a meme – PierogiCoin blends fun with real-world value.",
+    "mission": "Our mission is to create a vibrant ecosystem where community, innovation, and culture meet blockchain technology.",
+    "vision": "To become the tastiest token in the crypto space while delivering transparency, security, and growth potential.",
+    "values": {
+      "community": "Community First",
+      "transparency": "Full Transparency",
+      "innovation": "Constant Innovation",
+      "fun": "Crypto Can Be Fun!"
+    }
+  },
+  "purchase_summary": {
+    "title": "Purchase Summary",
+    "subtitle": "Review your transaction details before confirming.",
+    "cards": {
+      "tokens": {
+        "title": "Tokens to Receive",
+        "desc": "The total amount of PRG tokens you will get for this transaction."
+      },
+      "payment": {
+        "title": "Payment Method",
+        "desc": "The cryptocurrency you selected to use for this purchase."
+      },
+      "bonus": {
+        "title": "Bonus Applied",
+        "desc": "Any promotional or stage bonus added to your token purchase."
+      }
+    }
+  },
+  "utility": {
+    "title": "Why hold PRG?",
+    "subtitle": "Discover real-world utility of the token across the PierogiCoin ecosystem.",
+    "cta": "Buy PRG and explore benefits",
+    "cards": {
+      "discount": {
+        "title": "Discounts & Perks",
+        "desc": "Enjoy exclusive discounts in partner restaurants and future perks across our ecosystem."
+      },
+      "premium": {
+        "title": "Premium Access",
+        "desc": "Unlock early access to features, drops and special events for PRG holders."
+      },
+      "staking": {
+        "title": "Staking & Rewards",
+        "desc": "Stake PRG to earn extra rewards and contribute to a healthier token economy."
+      },
+      "voting": {
+        "title": "Community Voting",
+        "desc": "Help steer new features and partnerships by participating in governance votes."
+      },
+      "merch": {
+        "title": "Merch & IRL",
+        "desc": "Redeem limited merch and join IRL experiences powered by our partners."
+      },
+      "integrations": {
+        "title": "Integrations",
+        "desc": "Use PRG in partner apps, games and services as we expand the network."
+      }
+    }
+  }
+}
