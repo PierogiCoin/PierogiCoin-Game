@@ -61,9 +61,24 @@ export default function UserDashboardPage() {
 
     const supabase = createClient();
 
+    const [leaderboard, setLeaderboard] = useState<any[]>([]);
+
     useEffect(() => {
         checkUser();
+        fetchLeaderboard();
     }, []);
+
+    const fetchLeaderboard = async () => {
+        try {
+            const res = await fetch('/api/game/leaderboard');
+            if (res.ok) {
+                const data = await res.json();
+                setLeaderboard(data.leaderboard || []);
+            }
+        } catch (error) {
+            console.error('Failed to fetch leaderboard');
+        }
+    };
 
     const checkUser = async () => {
         try {
@@ -611,34 +626,38 @@ export default function UserDashboardPage() {
                             </div>
 
                             <div className="space-y-3 relative z-10">
-                                {[
-                                    { rank: 1, name: 'DragonSlayer99', level: 42, score: 15420, avatar: '🐉' },
-                                    { rank: 2, name: 'CryptoKing', level: 38, score: 12150, avatar: '👑' },
-                                    { rank: 3, name: 'PierogiMaster', level: 35, score: 11200, avatar: '🥟' },
-                                    { rank: 4, name: 'MoonWalker', level: 31, score: 9850, avatar: '👨‍🚀' },
-                                    { rank: 1142, name: stats?.username || 'You', level: stats?.level || 1, score: stats?.arenaPoints || 0, avatar: stats?.avatarId || '👤', isMe: true },
-                                ].map((player, i) => (
-                                    <div key={i} className={`flex items-center justify-between p-4 rounded-xl border transition-colors hover:bg-white/[0.04] ${player.isMe ? 'bg-gold-500/10 border-gold-500/30' : 'bg-white/[0.02] border-white/5'}`}>
-                                        <div className="flex items-center gap-4">
-                                            <div className={`w-8 h-8 flex items-center justify-center font-black rounded-lg text-xs ${player.rank === 1 ? 'bg-yellow-500 text-black shadow-lg shadow-yellow-500/20' : player.rank === 2 ? 'bg-gray-300 text-black' : player.rank === 3 ? 'bg-orange-700 text-white' : 'bg-white/10 text-gray-400'}`}>
-                                                #{player.rank}
-                                            </div>
-                                            <div className="w-10 h-10 bg-black/40 rounded-full flex items-center justify-center text-xl border border-white/10">
-                                                {player.avatar}
-                                            </div>
-                                            <div>
-                                                <div className={`font-bold ${player.isMe ? 'text-gold-400' : 'text-white'}`}>
-                                                    {player.name} {player.isMe && '(Ty)'}
+                                <div className="space-y-3 relative z-10">
+                                    {leaderboard.length > 0 ? leaderboard.map((player, i) => {
+                                        const isMe = stats?.username === player.username;
+                                        return (
+                                            <div key={i} className={`flex items-center justify-between p-4 rounded-xl border transition-colors hover:bg-white/[0.04] ${isMe ? 'bg-gold-500/10 border-gold-500/30' : 'bg-white/[0.02] border-white/5'}`}>
+                                                <div className="flex items-center gap-4">
+                                                    <div className={`w-8 h-8 flex items-center justify-center font-black rounded-lg text-xs ${i === 0 ? 'bg-yellow-500 text-black shadow-lg shadow-yellow-500/20' : i === 1 ? 'bg-gray-300 text-black' : i === 2 ? 'bg-orange-700 text-white' : 'bg-white/10 text-gray-400'}`}>
+                                                        #{i + 1}
+                                                    </div>
+                                                    <div className="w-10 h-10 bg-black/40 rounded-full flex items-center justify-center text-xl border border-white/10">
+                                                        {player.avatar_id || '👤'}
+                                                    </div>
+                                                    <div>
+                                                        <div className={`font-bold ${isMe ? 'text-gold-400' : 'text-white'}`}>
+                                                            {player.username} {isMe && '(Ty)'}
+                                                        </div>
+                                                        <div className="text-xs text-gray-500 font-bold">Lvl {player.level}</div>
+                                                    </div>
                                                 </div>
-                                                <div className="text-xs text-gray-500 font-bold">Lvl {player.level}</div>
+                                                <div className="text-right">
+                                                    <div className="font-black text-white">{(player.arena_points || 0).toLocaleString()}</div>
+                                                    <div className="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Pkt Areny</div>
+                                                </div>
                                             </div>
+                                        );
+                                    }) : (
+                                        <div className="text-center py-8 text-gray-500 text-sm">
+                                            <Loader2 className="w-6 h-6 animate-spin mx-auto mb-2 opacity-50" />
+                                            Ładowanie rankingu...
                                         </div>
-                                        <div className="text-right">
-                                            <div className="font-black text-white">{player.score.toLocaleString()}</div>
-                                            <div className="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Pkt Areny</div>
-                                        </div>
-                                    </div>
-                                ))}
+                                    )}
+                                </div>
                             </div>
                         </div>
 
