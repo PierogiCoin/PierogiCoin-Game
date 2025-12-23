@@ -87,7 +87,7 @@ export default function PurchasePanel() {
   const numFmt2 = useMemo(() => new Intl.NumberFormat(locale, { maximumFractionDigits: 2 }), [locale]);
   const numFmt4 = useMemo(() => new Intl.NumberFormat(locale, { maximumFractionDigits: 4 }), [locale]);
 
-  const { currentStage, liveCryptoPrices, setShowConfetti, refreshData } = usePresale();
+  const { liveCryptoPrices, setShowConfetti, refreshData } = usePresale();
   const { connection } = useConnection();
   const { publicKey, sendTransaction } = useWallet();
   const searchParams = useSearchParams();
@@ -301,6 +301,8 @@ export default function PurchasePanel() {
 
     // --- CRYPTO FLOW ---
     const flow = async () => {
+      if (!publicKey) throw new Error('No wallet connected');
+
       const initResponse = await fetch('/api/initiate-purchase', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
