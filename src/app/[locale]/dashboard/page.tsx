@@ -534,16 +534,24 @@ export default function UserDashboardPage() {
                                     </div>
                                 </div>
 
-                                <div className="flex flex-col justify-center gap-4">
-                                    <Link href="/buy-tokens" className="group/btn relative px-8 py-5 rounded-2xl bg-gold-500 text-black font-black text-center overflow-hidden hover:scale-[1.02] active:scale-95 transition-all shadow-xl shadow-gold-500/20">
-                                        <span className="relative z-10 flex items-center justify-center gap-2">
+                                <div className="flex flex-col justify-center gap-3">
+                                    <Link href="/buy-tokens" className="group/btn relative px-8 py-4 rounded-2xl bg-gold-500 text-black font-black text-center overflow-hidden hover:scale-[1.02] active:scale-95 transition-all shadow-xl shadow-gold-500/20">
+                                        <span className="relative z-10 flex items-center justify-center gap-2 text-base">
                                             {t('dashboard.buy_more_coins')} <Coins className="w-5 h-5 group-hover/btn:rotate-12 transition-transform" />
                                         </span>
                                         <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover/btn:translate-x-[100%] transition-transform duration-500" />
                                     </Link>
-                                    <a href="https://t.me/pierogicoin_bot" target="_blank" className="px-8 py-5 rounded-2xl bg-white/5 border border-white/10 text-white font-black text-center hover:bg-white/10 hover:border-white/20 transition-all flex items-center justify-center gap-2 backdrop-blur-sm">
-                                        Uruchom Grę 🥟 <ExternalLink className="w-4 h-4 opacity-50" />
-                                    </a>
+
+                                    <div className="grid grid-cols-2 gap-3">
+                                        <a href="https://t.me/PRGWHEEL_bot" target="_blank" rel="noopener noreferrer" className="px-2 py-3 rounded-2xl bg-[#229ED9]/10 border border-[#229ED9]/20 text-[#229ED9] font-bold text-center hover:bg-[#229ED9]/20 transition-all flex flex-col items-center justify-center gap-1 backdrop-blur-sm group">
+                                            <span className="text-[10px] uppercase tracking-wider opacity-70 group-hover:opacity-100 transition-opacity">Telegram</span>
+                                            <span className="flex items-center gap-1.5 text-sm">Start <ExternalLink className="w-3 h-3" /></span>
+                                        </a>
+                                        <a href="https://teleprg.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-2 py-3 rounded-2xl bg-purple-500/10 border border-purple-500/20 text-purple-400 font-bold text-center hover:bg-purple-500/20 transition-all flex flex-col items-center justify-center gap-1 backdrop-blur-sm group">
+                                            <span className="text-[10px] uppercase tracking-wider opacity-70 group-hover:opacity-100 transition-opacity">Browser</span>
+                                            <span className="flex items-center gap-1.5 text-sm">Start <ExternalLink className="w-3 h-3" /></span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
