@@ -332,60 +332,59 @@ export default function Navigation() {
               variants={mobileMenuVariants}
               initial="hidden"
               animate="visible"
-              className="md:hidden absolute top-full right-4 w-72 rounded-2xl shadow-xl shadow-black/50 border border-white/15 bg-[#0a0a12]/98 p-4"
-              style={{
-                backdropFilter: 'blur(16px)',
-                WebkitBackdropFilter: 'blur(16px)',
-              }}
+              exit="exit"
+              className="md:hidden absolute top-[calc(100%+8px)] right-0 left-0 mx-4 rounded-3xl shadow-2xl shadow-black/80 border border-gold-500/20 bg-[#07070d]/95 p-6 backdrop-blur-3xl overflow-hidden"
             >
-              <ul className="flex flex-col gap-2">
-                <li>
+              <div className="flex flex-col gap-4 max-h-[80vh] overflow-y-auto custom-scrollbar">
+
+                <Link
+                  href={`/${currentLocale}/buy-tokens`}
+                  onClick={() => setMenuOpen(false)}
+                  className="w-full text-center py-4 bg-gradient-to-r from-gold-400 via-amber-400 to-gold-500 text-black font-black text-lg rounded-2xl shadow-lg shadow-gold-500/20 active:scale-95 transition-all"
+                >
+                  💰 {t('nav.buy_tokens')}
+                </Link>
+
+                <div className="grid grid-cols-2 gap-3">
                   <Link
-                    href={`/${currentLocale}/buy-tokens`}
+                    href={`/${currentLocale}/dashboard`}
                     onClick={() => setMenuOpen(false)}
-                    className="block w-full text-center text-lg py-3 bg-gradient-to-r from-gold-400 via-amber-400 to-gold-500 text-gray-900 font-bold rounded-xl shadow-lg shadow-gold-400/40 hover:brightness-110"
+                    className="flex items-center justify-center gap-2 py-3 bg-white/5 border border-white/10 rounded-xl text-white font-bold text-sm hover:bg-white/10 active:scale-95 transition-all"
                   >
-                    {t('nav.buy_tokens')}
+                    👤 {t('nav.dashboard')}
                   </Link>
-                </li>
-                <hr className="border-gray-700/70 my-2" />
-                {NAV_LINKS_CONFIG.map((item) => (
-                  <li key={item.path}>
-                    {(() => {
-                      const basePath = item.path === '/' ? `/${currentLocale}` : `/${currentLocale}${item.path}`;
-                      const isActive = pathname === basePath;
-                      return (
+                  <div className="flex justify-center bg-white/5 border border-white/10 rounded-xl">
+                    <LanguageSwitcher />
+                  </div>
+                </div>
+
+                <div className="h-px w-full bg-white/10" />
+
+                <ul className="flex flex-col gap-1">
+                  {NAV_LINKS_CONFIG.filter(item => !['dashboard'].includes(item.nameKey)).map((item) => {
+                    const basePath = item.path === '/' ? `/${currentLocale}` : `/${currentLocale}${item.path}`;
+                    const isActive = pathname === basePath;
+                    return (
+                      <li key={item.path}>
                         <Link
                           href={basePath}
                           onClick={() => setMenuOpen(false)}
-                          className={`relative font-semibold px-3 py-1.5 rounded-lg transition-all duration-200 group block w-full text-left text-lg py-3 ${isActive
-                            ? 'text-gold-300'
-                            : 'text-white hover:text-gold-300'
+                          className={`flex items-center py-3 px-4 rounded-xl transition-all font-bold ${isActive
+                            ? 'bg-gold-500/10 text-gold-400 border border-gold-500/20'
+                            : 'text-gray-300 hover:bg-white/5 hover:text-white'
                             }`}
-                          aria-current={isActive ? "page" : undefined}
                         >
-                          <span className={`relative z-10 ${isActive ? 'animate-pulse' : ''}`}>{t(`nav.${item.nameKey}`)}</span>
+                          <span className="text-lg">{t(`nav.${item.nameKey}`)}</span>
+                          {isActive && <motion.div layoutId="mobileActiveDot" className="w-2 h-2 bg-gold-500 rounded-full ml-auto" />}
                         </Link>
-                      );
-                    })()}
-                  </li>
-                ))}
-              </ul>
-              <hr className="border-gray-700/70 my-4" />
-              <LanguageSwitcher />
-              <div className="pt-4">
-                <motion.div
-                  whileHover={prefersReducedMotion ? undefined : { scale: 1.05 }}
-                  whileTap={prefersReducedMotion ? undefined : { scale: 0.95 }}
-                >
-                  <WalletMultiButtonDynamic className="!w-full !bg-gradient-to-r !from-cyber-600 !to-cyber-500 !text-white !rounded-xl !py-3 !shadow-lg hover:!brightness-110 shadow-cyber-500/50" />
-                </motion.div>
-                {connected && publicKey && (
-                  <div className="text-center mt-4 flex flex-col gap-2">
-                    <button onClick={copyToClipboard} className="text-sm text-gold-400 hover:underline">{t('wallet.copyAddress', { ns: 'common' })}</button>
-                    <button onClick={handleDisconnect} className="text-sm text-red-400 hover:underline">{t('wallet.disconnect', { ns: 'common' })}</button>
-                  </div>
-                )}
+                      </li>
+                    );
+                  })}
+                </ul>
+
+                <div className="pt-2 pb-safe">
+                  <WalletMultiButtonDynamic className="!w-full !justify-center !bg-[#000] !border !border-cyber-500/50 !text-white !rounded-xl !py-4 !font-bold !shadow-lg shadow-cyber-500/20" />
+                </div>
               </div>
             </motion.div>
           )}
