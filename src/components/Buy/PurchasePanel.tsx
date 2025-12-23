@@ -10,6 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
 
 import { useWallet, useConnection } from '@solana/wallet-adapter-react';
+import { useWalletModal } from '@solana/wallet-adapter-react-ui';
 import { PublicKey, SystemProgram, Transaction } from '@solana/web3.js';
 import {
   getAssociatedTokenAddress,
@@ -90,6 +91,7 @@ export default function PurchasePanel() {
   const { liveCryptoPrices, setShowConfetti, refreshData } = usePresale();
   const { connection } = useConnection();
   const { publicKey, sendTransaction } = useWallet();
+  const { setVisible } = useWalletModal();
   const searchParams = useSearchParams();
 
   useEffect(() => {
@@ -578,7 +580,7 @@ export default function PurchasePanel() {
 
         <div className="space-y-4 pt-4">
           <button
-            onClick={publicKey ? handleBuy : () => document.querySelector<HTMLButtonElement>('.wallet-adapter-button')?.click()}
+            onClick={publicKey ? handleBuy : () => setVisible(true)}
             disabled={publicKey ? (isProcessing || !isDataReady) : false}
             className={`w-full py-4 rounded-xl font-black text-lg uppercase tracking-wide transition-all shadow-lg hover:shadow-gold-500/20
               ${publicKey
